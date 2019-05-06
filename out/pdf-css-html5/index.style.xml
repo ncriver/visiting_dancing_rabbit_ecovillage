@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<css:root xmlns:chfox="http://www.oxygenxml.com/chemistry/extensions/fop"
+    xmlns:css="http://www.w3.org/1998/CSS" xmlns:ditaarch="ditaarch" xmlns:nd="nd" xmlns:oxy="oxy">
+    <css:pages>
+        <css:page>
+            <css:footnote>
+                <css:property name="border-top-style" value="solid"/>
+                <css:property name="border-top-color" value="black"/>
+                <css:property name="border-top-width" value="thin"/>
+                <css:property name="padding-top" value="8pt"/>
+            </css:footnote>
+        </css:page>
+        <css:page>
+            <css:property name="padding-top" value="0.2em"/>
+            <css:property name="padding-bottom" value="0.2em"/>
+            <css:property name="width" value="8.5in"/>
+            <css:property name="height" value="11.0in"/>
+            <css:property name="margin-top" value="1in"/>
+            <css:property name="margin-right" value="1in"/>
+            <css:property name="margin-left" value="1in"/>
+            <css:property name="margin-bottom" value="1in"/>
+        </css:page>
+        <css:page>
+            <css:property name="font-size" value="8pt"/>
+        </css:page>
+        <css:page pseudo="left ">
+            <css:top-left>
+                <css:property name="content">
+                    <css:string name="maptitle" position="first"/>
+                    <css:string name="parttitle" position="first"/>
+                    <css:string name="chaptertitle" position="first"/>
+                    <css:string name="sectiontitle" position="first"/>
+                    <css:text> | </css:text>
+                    <css:counter format="decimal" name="page"/>
+                </css:property>
+            </css:top-left>
+        </css:page>
+        <css:page pseudo="right ">
+            <css:top-right>
+                <css:property name="content">
+                    <css:string name="maptitle" position="first"/>
+                    <css:string name="parttitle" position="first"/>
+                    <css:string name="chaptertitle" position="first"/>
+                    <css:string name="sectiontitle" position="first"/>
+                    <css:text> | </css:text>
+                    <css:counter format="decimal" name="page"/>
+                </css:property>
+            </css:top-right>
+        </css:page>
+        <css:page pseudo="blank ">
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+        </css:page>
+        <css:page name="front-page">
+            <css:top-left-corner>
+                <css:property name="content"/>
+            </css:top-left-corner>
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:top-right-corner>
+                <css:property name="content"/>
+            </css:top-right-corner>
+            <css:bottom-left-corner>
+                <css:property name="content"/>
+            </css:bottom-left-corner>
+            <css:bottom-left>
+                <css:property name="content"/>
+            </css:bottom-left>
+            <css:bottom-center>
+                <css:property name="content"/>
+            </css:bottom-center>
+            <css:bottom-right>
+                <css:property name="content"/>
+            </css:bottom-right>
+            <css:bottom-right-corner>
+                <css:property name="content"/>
+            </css:bottom-right-corner>
+        </css:page>
+        <css:page name="table-of-contents">
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:bottom-left>
+                <css:property name="content"/>
+            </css:bottom-left>
+            <css:bottom-center>
+                <css:property name="content"/>
+            </css:bottom-center>
+            <css:bottom-right>
+                <css:property name="content"/>
+            </css:bottom-right>
+        </css:page>
+        <css:page name="index">
+            <css:top-left-corner>
+                <css:property name="content"/>
+            </css:top-left-corner>
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:top-right-corner>
+                <css:property name="content"/>
+            </css:top-right-corner>
+            <css:bottom-left-corner>
+                <css:property name="content"/>
+            </css:bottom-left-corner>
+            <css:bottom-left>
+                <css:property name="content"/>
+            </css:bottom-left>
+            <css:bottom-center>
+                <css:property name="content">
+                    <css:counter format="lower-alpha" name="page"/>
+                </css:property>
+            </css:bottom-center>
+            <css:bottom-right>
+                <css:property name="content"/>
+            </css:bottom-right>
+            <css:bottom-right-corner>
+                <css:property name="content"/>
+            </css:bottom-right-corner>
+        </css:page>
+        <css:page name="index">
+            <css:property name="column-count" value="2"/>
+            <css:property name="column-fill" value="auto"/>
+        </css:page>
+        <css:page name="chapter"/>
+        <css:page name="matter-page">
+            <css:top-left-corner>
+                <css:property name="content"/>
+            </css:top-left-corner>
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:top-right-corner>
+                <css:property name="content"/>
+            </css:top-right-corner>
+            <css:bottom-left-corner>
+                <css:property name="content"/>
+            </css:bottom-left-corner>
+            <css:bottom-left>
+                <css:property name="content"/>
+            </css:bottom-left>
+            <css:bottom-center>
+                <css:property name="content"/>
+            </css:bottom-center>
+            <css:bottom-right>
+                <css:property name="content"/>
+            </css:bottom-right>
+            <css:bottom-right-corner>
+                <css:property name="content"/>
+            </css:bottom-right-corner>
+        </css:page>
+        <css:page name="portrait-page">
+            <css:property name="orientation" value="portrait"/>
+        </css:page>
+        <css:page name="table-of-contents" pseudo="left ">
+            <css:top-left>
+                <css:property name="content">
+                    <css:string name="toc-header" position="first"/>
+                    <css:text> | </css:text>
+                    <css:counter format="lower-roman" name="page"/>
+                </css:property>
+            </css:top-left>
+        </css:page>
+        <css:page name="table-of-contents" pseudo="right ">
+            <css:top-right>
+                <css:property name="content">
+                    <css:string name="toc-header" position="first"/>
+                    <css:text> | </css:text>
+                    <css:counter format="lower-roman" name="page"/>
+                </css:property>
+            </css:top-right>
+        </css:page>
+        <css:page name="landscape-page" pseudo="right ">
+            <css:property name="orientation" value="landscape"/>
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:right-bottom>
+                <css:property name="content">
+                    <css:reference-orientation-container-pmb reference-orientation="270">
+                        <css:string name="maptitle" position="first"/>
+                        <css:string name="parttitle" position="first"/>
+                        <css:string name="chaptertitle" position="first"/>
+                        <css:string name="sectiontitle" position="first"/>
+                        <css:text> | </css:text>
+                        <css:counter format="decimal" name="page"/>
+                    </css:reference-orientation-container-pmb>
+                </css:property>
+                <css:property name="vertical-align" value="middle"/>
+                <css:property name="text-align" value="right"/>
+            </css:right-bottom>
+        </css:page>
+        <css:page name="landscape-page" pseudo="left ">
+            <css:property name="orientation" value="landscape"/>
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:right-top>
+                <css:property name="content">
+                    <css:reference-orientation-container-pmb reference-orientation="270">
+                        <css:string name="maptitle" position="first"/>
+                        <css:string name="parttitle" position="first"/>
+                        <css:string name="chaptertitle" position="first"/>
+                        <css:string name="sectiontitle" position="first"/>
+                        <css:text> | </css:text>
+                        <css:counter format="decimal" name="page"/>
+                    </css:reference-orientation-container-pmb>
+                </css:property>
+                <css:property name="vertical-align" value="middle"/>
+                <css:property name="text-align" value="left"/>
+            </css:right-top>
+        </css:page>
+        <css:page name="table-of-contents" pseudo="first left ">
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+        </css:page>
+        <css:page name="table-of-contents" pseudo="first right ">
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+        </css:page>
+        <css:page name="chapter" pseudo="first left ">
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+        </css:page>
+        <css:page name="chapter" pseudo="first right ">
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+        </css:page>
+    </css:pages>
+    <css:page-sequence initial-page-number="1" page="front-page">
+        <html css:counter-reset=" page 1" css:display="block"
+            css:font-family="serif, Times, Times New Roman, Symbol, MingLiU, MS Mincho, Arial Unicode MS"
+            css:font-size="12px"
+            xtrf="file:/C:/Users/nchun/GitHub/visiting_dancing_rabbit_ecovillage/index.ditamap">
+            <head css:border-bottom-color="white" css:border-bottom-style="solid"
+                css:border-bottom-width="1pt" css:border-left-color="white"
+                css:border-left-style="solid" css:border-left-width="1pt"
+                css:border-right-color="white" css:border-right-style="solid"
+                css:border-right-width="1pt" css:border-top-color="white"
+                css:border-top-style="solid" css:border-top-width="1pt" css:display="none"
+                css:padding-bottom="1em" css:padding-left="1em" css:padding-right="1em"
+                css:padding-top="1em">
+                <meta charset="UTF-8" css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="1px"/>
+                <meta content="(C) Copyright 2019" css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="copyright"/>
+                <meta content="(C) Copyright 2019" css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="1px"
+                    name="DC.rights.owner"/>
+                <meta content="map" css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="DC.type"/>
+                <meta content="HTML5" css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="DC.format"/>
+                <link css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller"
+                    css:link="file:/C:/Users/nchun/AppData/Local/Programs/Oxygen XML Editor 21/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css"
+                    css:margin-bottom="1px" css:margin-left="0" css:margin-right="0"
+                    css:margin-top="1px"
+                    href="file:/C:/Users/nchun/AppData/Local/Programs/Oxygen XML Editor 21/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css"
+                    rel="stylesheet" type="text/css"/>
+                <link css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller"
+                    css:link="file:/C:/Users/nchun/AppData/Local/Programs/Oxygen XML Editor 21/frameworks/dita/css/print/p-dita.css"
+                    css:margin-bottom="1px" css:margin-left="0" css:margin-right="0"
+                    css:margin-top="1px"
+                    href="file:/C:/Users/nchun/AppData/Local/Programs/Oxygen XML Editor 21/frameworks/dita/css/print/p-dita.css"
+                    rel="stylesheet" type="text/css"/>
+                <link css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller"
+                    css:link="file:/C:/Users/nchun/AppData/Local/Programs/Oxygen XML Editor 21/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.editlink/pdf-css.css"
+                    css:margin-bottom="1px" css:margin-left="0" css:margin-right="0"
+                    css:margin-top="1px"
+                    href="file:/C:/Users/nchun/AppData/Local/Programs/Oxygen XML Editor 21/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.editlink/pdf-css.css"
+                    rel="stylesheet" type="text/css"/>
+                <title css:border-bottom-color="rgb(0 , 68 , 119)" css:border-bottom-style="solid"
+                    css:border-bottom-width="2px" css:color="rgb(0 , 34 , 68)" css:display="none"
+                    css:font-size="2.2em" css:font-weight="bold" css:margin-bottom="0.5em"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="0.5em">
+                    <css:oxy-pdf-meta-title>
+                        <css:content source="text"/>
+                    </css:oxy-pdf-meta-title>
+                </title>
+            </head>
+            <body class="wh_topic_page" css:display="block" css:font-size="11.5pt"
+                css:margin-left="auto" css:margin-right="auto">
+                <div class="wh_content_area" css:display="block">
+                    <div class="wh_topic_body" css:display="block">
+                        <div class="wh_topic_content" css:display="block">
+                            <div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+                                cascade="merge" class="- map/map map"
+                                css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0"
+                                css:display="block" ditaarch:ditaarchversion="1.3"
+                                domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)">
+                                <css:string-set name="toc-header">
+                                    <css:text>Contents</css:text>
+                                </css:string-set>
+                                <div class="- front-page/front-page front-page" css:display="block">
+                                    <div class="- front-page/front-page-title front-page-title"
+                                        css:display="block"
+                                        css:font-family="Arial, helvetica, sans-serif"
+                                        css:font-size="2em" css:font-weight="bold"
+                                        css:margin-top="3in" css:text-align="center">
+                                        <div class="- topic/title title" css:bookmark-level="1"
+                                            css:display="block" css:page-break-after="avoid"
+                                                ><css:string-set name="maptitle"><css:content
+                                                  source="text"
+                                                  /></css:string-set><css:bookmark-label><css:content
+                                                  source="before"/><css:content source="text"
+                                                /></css:bookmark-label><css:oxy-pdf-meta-title><css:content
+                                                  source="text"/></css:oxy-pdf-meta-title>My Visit
+                                            to Dancing Rabbit Ecovillage</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>
+    </css:page-sequence>
+    <css:page-sequence page="table-of-contents">
+        <html css:counter-reset=" page 1" css:display="block"
+            css:font-family="serif, Times, Times New Roman, Symbol, MingLiU, MS Mincho, Arial Unicode MS"
+            css:font-size="12px"
+            xtrf="file:/C:/Users/nchun/GitHub/visiting_dancing_rabbit_ecovillage/index.ditamap">
+            <body class="wh_topic_page" css:display="block" css:font-size="11.5pt"
+                css:margin-left="auto" css:margin-right="auto">
+                <div class="wh_content_area" css:display="block">
+                    <div class="wh_topic_body" css:display="block">
+                        <div class="wh_topic_content" css:display="block">
+                            <div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+                                cascade="merge" class="- map/map map"
+                                css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0"
+                                css:display="block" ditaarch:ditaarchversion="1.3"
+                                domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)">
+                                <div class="- toc/toc toc" css:display="block">
+                                    <div class="- toc/title title" css:bookmark-level="1"
+                                        css:display="block" css:font-size="2em"
+                                        css:margin-bottom="1em" empty="true">
+                                        <css:before css:display="inline">
+                                            <css:text>Contents</css:text>
+                                        </css:before>
+                                        <css:bookmark-label>
+                                            <css:content source="before"/>
+                                        </css:bookmark-label>
+                                    </div>
+                                    <div class="- topic/title title" css:display="none"
+                                        css:page-break-after="avoid">My Visit to Dancing Rabbit
+                                        Ecovillage</div>
+                                    <div class="- map/topicref topicref" css:display="block"
+                                        css:font-weight="bold" css:margin-bottom="0.5em"
+                                        css:margin-left="0" css:margin-top="0.5em" href="#unique_1"
+                                        is-chapter="true" type="concept">
+                                        <div class="- map/topicmeta topicmeta"
+                                            css:border-bottom-color="transparent"
+                                            css:border-bottom-style="none"
+                                            css:border-left-color="transparent"
+                                            css:border-left-style="none"
+                                            css:border-right-color="transparent"
+                                            css:border-right-style="none"
+                                            css:border-top-color="transparent"
+                                            css:border-top-style="none" css:display="block"
+                                            css:margin-bottom="0" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="0"
+                                            css:padding-bottom="0" css:padding-left="0"
+                                            css:padding-right="0" css:padding-top="0"
+                                            data-topic-id="concept_w1g_qpv_phb">
+                                            <css:before css:display="inline"/>
+                                            <div appid="concept_w1g_qpv_phb"
+                                                class="- topic/resourceid resourceid"
+                                                css:display="none" oxy-source="topic"/>
+                                            <div class="- topic/navtitle navtitle"
+                                                css:display="block" css:link="#unique_1"
+                                                css:text-align-last="justify" href="#unique_1"
+                                                  ><css:before css:display="inline"
+                                                  css:link="#unique_1"><css:text>Chapter
+                                                  </css:text><css:counter name="toc-chapter"
+                                                  value="1"/><css:text>.
+                                                  </css:text></css:before>Introduction<css:after
+                                                  css:display="inline" css:link="#unique_1"
+                                                  ><css:leader pattern="."/><css:target-counter
+                                                  url-fragment="unique_1"/></css:after></div>
+                                            <div class="- map/shortdesc shortdesc"
+                                                css:display="none">Introduction about my reason for
+                                                visiting Dancing Rabbit</div>
+                                        </div>
+                                    </div>
+                                    <div class="- map/topicref topicref" css:display="block"
+                                        css:font-weight="bold" css:margin-bottom="0.5em"
+                                        css:margin-left="0" css:margin-top="0.5em" href="#unique_2"
+                                        is-chapter="true" type="concept">
+                                        <div class="- map/topicmeta topicmeta"
+                                            css:border-bottom-color="transparent"
+                                            css:border-bottom-style="none"
+                                            css:border-left-color="transparent"
+                                            css:border-left-style="none"
+                                            css:border-right-color="transparent"
+                                            css:border-right-style="none"
+                                            css:border-top-color="transparent"
+                                            css:border-top-style="none" css:display="block"
+                                            css:margin-bottom="0" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="0"
+                                            css:padding-bottom="0" css:padding-left="0"
+                                            css:padding-right="0" css:padding-top="0"
+                                            data-topic-id="concept_llv_ppv_phb">
+                                            <css:before css:display="inline"/>
+                                            <div appid="concept_llv_ppv_phb"
+                                                class="- topic/resourceid resourceid"
+                                                css:display="none" oxy-source="topic"/>
+                                            <div class="- topic/navtitle navtitle"
+                                                css:display="block" css:link="#unique_2"
+                                                css:text-align-last="justify" href="#unique_2"
+                                                  ><css:before css:display="inline"
+                                                  css:link="#unique_2"><css:text>Chapter
+                                                  </css:text><css:counter name="toc-chapter"
+                                                  value="2"/><css:text>. </css:text></css:before>A
+                                                Quick Overview of Dancing Rabbit<css:after
+                                                  css:display="inline" css:link="#unique_2"
+                                                  ><css:leader pattern="."/><css:target-counter
+                                                  url-fragment="unique_2"/></css:after></div>
+                                        </div>
+                                    </div>
+                                    <div class="- map/topicref topicref" css:display="block"
+                                        css:font-weight="bold" css:margin-bottom="0.5em"
+                                        css:margin-left="0" css:margin-top="0.5em" href="#unique_3"
+                                        is-chapter="true" type="concept">
+                                        <div class="- map/topicmeta topicmeta"
+                                            css:border-bottom-color="transparent"
+                                            css:border-bottom-style="none"
+                                            css:border-left-color="transparent"
+                                            css:border-left-style="none"
+                                            css:border-right-color="transparent"
+                                            css:border-right-style="none"
+                                            css:border-top-color="transparent"
+                                            css:border-top-style="none" css:display="block"
+                                            css:margin-bottom="0" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="0"
+                                            css:padding-bottom="0" css:padding-left="0"
+                                            css:padding-right="0" css:padding-top="0"
+                                            data-topic-id="concept_lwq_15x_nhb">
+                                            <css:before css:display="inline"/>
+                                            <div appid="concept_lwq_15x_nhb"
+                                                class="- topic/resourceid resourceid"
+                                                css:display="none" oxy-source="topic"/>
+                                            <div class="- topic/navtitle navtitle"
+                                                css:display="block" css:link="#unique_3"
+                                                css:text-align-last="justify" href="#unique_3"
+                                                  ><css:before css:display="inline"
+                                                  css:link="#unique_3"><css:text>Chapter
+                                                  </css:text><css:counter name="toc-chapter"
+                                                  value="3"/><css:text>.
+                                                </css:text></css:before>Infrastructure and
+                                                  Zoning<css:after css:display="inline"
+                                                  css:link="#unique_3"><css:leader pattern="."
+                                                  /><css:target-counter url-fragment="unique_3"
+                                                  /></css:after></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>
+    </css:page-sequence>
+    <css:page-sequence xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations"
+        xmlns:oxy="http://www.oxygenxml.com/extensions/author" initial-page-number="1"
+        page="chapter">
+        <html css:counter-reset=" page 1" css:display="block"
+            css:font-family="serif, Times, Times New Roman, Symbol, MingLiU, MS Mincho, Arial Unicode MS"
+            css:font-size="12px"
+            xtrf="file:/C:/Users/nchun/GitHub/visiting_dancing_rabbit_ecovillage/index.ditamap">
+            <body class="wh_topic_page" css:display="block" css:font-size="11.5pt"
+                css:margin-left="auto" css:margin-right="auto">
+                <div class="wh_content_area" css:display="block">
+                    <div class="wh_topic_body" css:display="block">
+                        <div class="wh_topic_content" css:display="block">
+                            <div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+                                cascade="merge" class="- map/map map"
+                                css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0"
+                                css:display="block" ditaarch:ditaarchversion="1.3"
+                                domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)">
+                                <article aria-labelledby="ariaid-title1" break-before="true"
+                                    class="- topic/topic concept/concept topic concept nested0"
+                                    css:counter-reset="page 1" css:display="block"
+                                    css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_1"
+                                    is-chapter="true" nd:nd-id="concept_w1g_qpv_phb"
+                                    oid="concept_w1g_qpv_phb" oxy:topicref-class="- map/topicref ">
+                                    <h1 class="- topic/title title topictitle1"
+                                        css:bookmark-level="1" css:display="block"
+                                        css:font-size="2em" css:margin-bottom="1em"
+                                        css:margin-left="0" css:margin-right="0" css:margin-top="0"
+                                        css:oxy-pdf-tag-type="H1" css:page-break-after="avoid"
+                                        id="ariaid-title1"><css:string-set name="chaptertitle"
+                                                ><css:text> | </css:text><css:counter name="chapter"
+                                                value="1"/><css:text> - </css:text><css:content
+                                                source="text"
+                                                /></css:string-set><css:bookmark-label><css:content
+                                                source="before"/><css:content source="text"
+                                            /></css:bookmark-label><css:before css:display="inline"
+                                                ><css:text>Chapter </css:text><css:counter
+                                                name="chapter" value="1"/><css:text>.
+                                            </css:text></css:before>Introduction</h1>
+                                    <div class="- topic/body concept/conbody body conbody"
+                                        css:display="block" css:margin-bottom="0"
+                                        css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                        <p class="- topic/shortdesc shortdesc" css:display="block"
+                                            css:margin-bottom="0.5em" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="0.5em">Introduction
+                                            about my reason for visiting Dancing Rabbit</p>
+                                        <p class="- topic/p p" css:display="block"
+                                            css:margin-bottom="0.5em" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="1em">Hoping to
+                                            discover the simple life in a sustainable utopia, I
+                                            visited a few ecovillages over the years, starting with
+                                            my visit to Dancing Rabbit Ecovillage (DR for short)
+                                            during the summer of 2012. Ecovillages are intentional
+                                            communities with a focus on ecological sustainability.
+                                            Having been interested in sustainability and alternative
+                                            lifestyles for some time while working in technology
+                                            companies, I initially thought about becoming a farmer
+                                            and volunteered at a few organic farms until I realized
+                                            how difficult farming is. I shifted my focus to looking
+                                            for sustainable communities and learned about DR on the
+                                            Internet. DR is an ecovillage in Rutledge, MO that set
+                                            itself apart from the mainstream by locally generating
+                                            electricity from renewable sources, using composting
+                                            toilets, building houses with natural materials,
+                                            reducing fossil fuel consumption, and focusing on
+                                            forming a close-knit community. For a period of two
+                                            weeks from June 25th to July 9th of 2012, I lived at DR
+                                            to participate in its visitor program for prospective
+                                            residents. As a part of the program, we also visited
+                                            Sandhill Farm, a small income-sharing community in the
+                                            same town for a day. Immediately after my two-week
+                                            visit, I stayed for two days in DR's sister village Red
+                                            Earth Farms. In September of 2015, I visited two more
+                                            ecovillages, spending one week at Earthaven Ecovillage
+                                            in Black Mountain, NC and just one day at Sirius
+                                            Community. </p>
+                                        <p class="- topic/p p" css:display="block"
+                                            css:margin-bottom="0.5em" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="1em">While the
+                                            visit to various ecovillages showed me inspiring ways to
+                                            re-design our neighborhoods and our day-to-day lives, I
+                                            also realized that the simple life is not so simple, and
+                                            starting newsustainable villages from scratch is an
+                                            impractical solution on a massive scale. Since I stayed
+                                            at Dancing Rabbit the longest out of the four
+                                            ecovillages I visited, I decided to write an essay about
+                                            it. Another reason for focusing on DR over other
+                                            ecovillages is that I had the most favorable impression
+                                            of DR out of all the ecovillages I visited. I
+                                            occasionally talk about in other ecovillages in this
+                                            essay to compare them against Dancing Rabbit.</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>
+    </css:page-sequence>
+    <css:page-sequence xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations"
+        xmlns:oxy="http://www.oxygenxml.com/extensions/author" page="chapter">
+        <html css:counter-reset=" page 1" css:display="block"
+            css:font-family="serif, Times, Times New Roman, Symbol, MingLiU, MS Mincho, Arial Unicode MS"
+            css:font-size="12px"
+            xtrf="file:/C:/Users/nchun/GitHub/visiting_dancing_rabbit_ecovillage/index.ditamap">
+            <body class="wh_topic_page" css:display="block" css:font-size="11.5pt"
+                css:margin-left="auto" css:margin-right="auto">
+                <div class="wh_content_area" css:display="block">
+                    <div class="wh_topic_body" css:display="block">
+                        <div class="wh_topic_content" css:display="block">
+                            <div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+                                cascade="merge" class="- map/map map"
+                                css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0"
+                                css:display="block" ditaarch:ditaarchversion="1.3"
+                                domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)">
+                                <article aria-labelledby="ariaid-title2" break-before="true"
+                                    class="- topic/topic concept/concept topic concept nested0"
+                                    css:display="block" css:margin-top="1em"
+                                    css:oxy-pdf-tag-type="Sect" id="unique_2" is-chapter="true"
+                                    nd:nd-id="concept_llv_ppv_phb" oid="concept_llv_ppv_phb"
+                                    oxy:topicref-class="- map/topicref ">
+                                    <h1 class="- topic/title title topictitle1"
+                                        css:bookmark-level="1" css:display="block"
+                                        css:font-size="2em" css:margin-bottom="1em"
+                                        css:margin-left="0" css:margin-right="0" css:margin-top="0"
+                                        css:oxy-pdf-tag-type="H1" css:page-break-after="avoid"
+                                        id="ariaid-title2"><css:string-set name="chaptertitle"
+                                                ><css:text> | </css:text><css:counter name="chapter"
+                                                value="2"/><css:text> - </css:text><css:content
+                                                source="text"
+                                                /></css:string-set><css:bookmark-label><css:content
+                                                source="before"/><css:content source="text"
+                                            /></css:bookmark-label><css:before css:display="inline"
+                                                ><css:text>Chapter </css:text><css:counter
+                                                name="chapter" value="2"/><css:text>.
+                                            </css:text></css:before>A Quick Overview of Dancing
+                                        Rabbit</h1>
+                                    <div class="- topic/body concept/conbody body conbody"
+                                        css:display="block" css:margin-bottom="0"
+                                        css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                        <p class="- topic/p p" css:display="block"
+                                            css:margin-bottom="0.5em" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="1em">Dancing Rabbit
+                                            is an ecovillage located on the outskirts of Rutledge, a
+                                            tiny town in a rural part of northeast Missouri. The
+                                            main town center of Rutledge is about two miles away
+                                            from DR and had 109 people according to the town sign
+                                            when I visited DR. DR itself had about 55 members and
+                                            residents - these two roles have some distinct
+                                            differences explained in "Becoming a Member" section -
+                                            and 15 children, so the total added up to 70. I also
+                                            counted about 20 visitors and wexers, or work
+                                            exchangers. Work exchangers provided labor to the host
+                                            families in exchange for free food and loedging. While
+                                            the population of DR sounded small, it seemed to be one
+                                            of the largest and oldest surviving ecovillages in the
+                                            United States based on my quick research.</p>
+                                        <p class="- topic/p p" css:display="block"
+                                            css:margin-bottom="0.5em" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="1em">In 1997, a
+                                            group of idealistic people, many from the West Coast,
+                                            founded Dancing Rabbit as an ecovillage to explore more
+                                            sustainable ways of living. They were looking for a
+                                            place with inexpensive real estate and other conditions
+                                            suitable to starting an intentional community, and
+                                            Rutledge was a good fit. What helped the move was that
+                                            Sandhill Farm, another intentional community, was
+                                            already established a few miles away.</p>
+                                        <p class="- topic/p p" css:display="block"
+                                            css:margin-bottom="0.5em" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="1em">DR is composed
+                                            of multiple legal entities, including the educational
+                                            nonprofit arm and DR Land Trust. DR Land Trust owns
+                                            about 277 acres of real estate with four acres of it
+                                            more heavily developed as the main part of the town. The
+                                            rest of the land consists of undeveloped prairies,
+                                            forests, a large swimming pond, and 20 acres that got
+                                            opened up for farming in 2012 before my visit.</p>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>
+    </css:page-sequence>
+    <css:page-sequence xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations"
+        xmlns:oxy="http://www.oxygenxml.com/extensions/author" page="chapter">
+        <html css:counter-reset=" page 1" css:display="block"
+            css:font-family="serif, Times, Times New Roman, Symbol, MingLiU, MS Mincho, Arial Unicode MS"
+            css:font-size="12px"
+            xtrf="file:/C:/Users/nchun/GitHub/visiting_dancing_rabbit_ecovillage/index.ditamap">
+            <body class="wh_topic_page" css:display="block" css:font-size="11.5pt"
+                css:margin-left="auto" css:margin-right="auto">
+                <div class="wh_content_area" css:display="block">
+                    <div class="wh_topic_body" css:display="block">
+                        <div class="wh_topic_content" css:display="block">
+                            <div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+                                cascade="merge" class="- map/map map"
+                                css:counter-reset=" toc-chapter 0 chapter 0 figcount 0 tablecount 0"
+                                css:display="block" ditaarch:ditaarchversion="1.3"
+                                domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)">
+                                <article aria-labelledby="ariaid-title3" break-before="true"
+                                    class="- topic/topic concept/concept topic concept nested0"
+                                    css:display="block" css:margin-top="1em"
+                                    css:oxy-pdf-tag-type="Sect" id="unique_3" is-chapter="true"
+                                    nd:nd-id="concept_lwq_15x_nhb" oid="concept_lwq_15x_nhb"
+                                    oxy:topicref-class="- map/topicref ">
+                                    <h1 class="- topic/title title topictitle1"
+                                        css:bookmark-level="1" css:display="block"
+                                        css:font-size="2em" css:margin-bottom="1em"
+                                        css:margin-left="0" css:margin-right="0" css:margin-top="0"
+                                        css:oxy-pdf-tag-type="H1" css:page-break-after="avoid"
+                                        id="ariaid-title3"><css:string-set name="chaptertitle"
+                                                ><css:text> | </css:text><css:counter name="chapter"
+                                                value="3"/><css:text> - </css:text><css:content
+                                                source="text"
+                                                /></css:string-set><css:bookmark-label><css:content
+                                                source="before"/><css:content source="text"
+                                            /></css:bookmark-label><css:before css:display="inline"
+                                                ><css:text>Chapter </css:text><css:counter
+                                                name="chapter" value="3"/><css:text>.
+                                            </css:text></css:before>Infrastructure and Zoning</h1>
+                                    <div class="- topic/body concept/conbody body conbody"
+                                        css:display="block" css:margin-bottom="0"
+                                        css:margin-left="0" css:margin-right="0" css:margin-top="0">
+                                        <p class="- topic/p p" css:display="block"
+                                            css:margin-bottom="0.5em" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="1em">The
+                                            interesting infrastructure feature at DR, which would
+                                            turn out to be a common feature in all ecovillages I
+                                            visited except for Red Earth Farms, was the common
+                                            house. The common house at DR was a large, multi-purpose
+                                            building with plastered straw bale walls. People used
+                                            the large living room for meetings, activities, and
+                                            dining. The bathroom area had multiple composting
+                                            toilets, two showers, and a few energy-efficient laundry
+                                            machines but no dryers. People dried all their clothes
+                                            in the sun using clotheslines.</p>
+                                        <p class="- topic/p p" css:display="block"
+                                            css:margin-bottom="0.5em" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="1em">For
+                                            intentional communities, a central community building
+                                            where people can easily get together on a daily basis is
+                                            essential in order to facilitate communication and
+                                            coordination. It also serves as a no-cost social space
+                                            with a roof, which is a refreshing departure from
+                                            mainstream communities that tend to only have commercial
+                                            third places like cafes. While most cities have
+                                            libraries as third places free and open to the public,
+                                            the main function of libraries is quiet learning and
+                                            research, not social interaction. Experiencing the
+                                            common house at ecovillages made me wonder how practical
+                                            it would be to implement such places in mainstream
+                                            cities.</p>
+                                        <p class="- topic/p p" css:display="block"
+                                            css:margin-bottom="0.5em" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="1em">The common
+                                            house had some deficiencies that hinted at DR's slow
+                                            group decision-making process. Despite the village being
+                                            about 15 years-old by 2012, the common house did not
+                                            have thermal curtains while pretty much all individual
+                                            homes did. Many people I met at DR said that changes can
+                                            happen very slowly at DR. It seemed more accurate to say
+                                            people were fast at making decisions on individual
+                                            matters but slow on group matters. Since the common
+                                            house was very uncomfortable during hot weather, many
+                                            people without a permanent home, mostly new residents,
+                                            visitors, and work exchangers, went to the bar at the
+                                            Milkweed Mercantile, the swimming pond, or Zimmerman's
+                                            general store in Rutledge town center.</p>
+                                        <p class="- topic/p p" css:display="block"
+                                            css:margin-bottom="0.5em" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="1em">Rutledge and
+                                            the surrounding areas had enough infrastructure for
+                                            basic goods and services. The town center of Rutledge,
+                                            about two miles away from DR, had an impressive general
+                                            store named Zimmerman's, or Zimmy's, as it was
+                                            affectionately called. The store had a small cafe that
+                                            sold burgers and ice cream. People from DR would come to
+                                            Zimmy's and spend a few hours just chatting and enjoying
+                                            the cool AC breeze. About 12 miles away from DR was a
+                                            bigger town named Memphis, equipped with a supermarket,
+                                            a library, a department store, and even a local theater
+                                            company.</p>
+                                        <p class="- topic/p p" css:display="block"
+                                            css:margin-bottom="0.5em" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="1em">DR had
+                                            relatively dense zoning for a rural town where some
+                                            buildings were as close as 5 yards from each other.
+                                            Houses tended to have small yards suitable for gardening
+                                            while lacking a driveway following the DR's ban on using
+                                            automobiles within the village. DR's town structure was
+                                            based on what members called the “European model”: Homes
+                                            were clustered together in a dense central area while a
+                                            large area of farmland surrounded the central area. This
+                                            structure allowed for more frequent social interaction
+                                            and cooperation at the expense of not being able to
+                                            constantly monitor the farmland.</p>
+                                        <p class="- topic/p p" css:display="block"
+                                            css:margin-bottom="0.5em" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="1em">Not content
+                                            with this model, a group of former members formed the
+                                            sister village of Red Earth Farms about a mile from DR.
+                                            Former members who wanted to focus more on homesteading
+                                            structured Red Earth Farms based on what they called the
+                                            “American model” - each individual house was surrounded
+                                            by a large ring of farmland, which allowed each
+                                            household a direct view and access to the farmland. At
+                                            the time of my visit, Red Earth Farms had what I
+                                            remember to be four households. Rather than having a
+                                            more strict ecological covenant like Dancing Rabbit, Red
+                                            Earth held annual ecological audits to see how they were
+                                            doing and what they could do better next year. Similar
+                                            to DR, Red Earth Farms also had a central parking lot at
+                                            the edge of the village, but it had no central common
+                                            house. The houses were so spread out that it took
+                                            several minutes to walk from the central parking lot to
+                                            the nearest house while at DR, it took only a minute or
+                                            so to walk from the parking lot to the nearest house.
+                                            Although DR and Red Earth Farms were technically two
+                                            separate sister villages, they often functioned as one
+                                            with villagers frequently visiting each other. People
+                                            from Red Earth Farms would often walk for a mile to come
+                                            to DR community events. The following is a conceptual
+                                            diagram showing the town layouts of DR and Red Earth
+                                            Farms.</p>
+                                        <div class="- topic/p p" css:display="block"
+                                            css:margin-top="1em">
+                                            <br css:display="block">
+                                                <css:after css:display="inline">
+                                                  <css:text/>
+                                                </css:after>
+                                            </br>
+                                            <div class="imagecenter" css:display="block"
+                                                css:text-align="center">
+                                                <img align="center"
+                                                  alt="A conceptual diagram showing the layout of Dancing Rabbit on the left and the layout of Red Earth Farms on the right. Dancing Rabbit has a common house and resident houses clustered closely together surrounded by a ring of farmland. Red Earth Farms has houses spread out, and each house is surrounded by a ring of farmland."
+                                                  chfox:inch="true"
+                                                  class="- topic/image image imagecenter"
+                                                  css:display="inline" css:image-resolution="120dpi"
+                                                  css:max-width="100%"
+                                                  css:oxy-alt-text="A conceptual diagram showing the layout of Dancing Rabbit on the left and the layout of Red Earth Farms on the right. Dancing Rabbit has a common house and resident houses clustered closely together surrounded by a ring of farmland. Red Earth Farms has houses spread out, and each house is surrounded by a ring of farmland."
+                                                  href="file:/C:/Users/nchun/GitHub/visiting_dancing_rabbit_ecovillage/images/ecovillage%20layouts.png"
+                                                  id="unique_3_Connect_42_image_ydv_rwv_phb"
+                                                  nd:nd-id="image_ydv_rwv_phb" placement="break"
+                                                  scalefit="yes"
+                                                  src="file:/C:/Users/nchun/GitHub/visiting_dancing_rabbit_ecovillage/images/ecovillage%20layouts.png">
+                                                  <css:content-on-element>
+                                                  <css:uri extracted-image-height="419"
+                                                  extracted-image-width="823"
+                                                  uri="file:/C:/Users/nchun/GitHub/visiting_dancing_rabbit_ecovillage/images/ecovillage%20layouts.png"
+                                                  />
+                                                  </css:content-on-element>
+                                                </img>
+                                            </div>
+                                            <br css:display="block">
+                                                <css:after css:display="inline">
+                                                  <css:text/>
+                                                </css:after>
+                                            </br>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>
+    </css:page-sequence>
+</css:root>

@@ -1,0 +1,1300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format"
+    xmlns:chfox="http://www.oxygenxml.com/chemistry/extensions/fop"
+    xmlns:css="http://www.w3.org/1998/CSS" xmlns:fox="http://xmlgraphics.apache.org/fop/extensions"
+    xml:lang="dflt">
+    <fo:layout-master-set>
+        <!-- Page: css2fo-default-->
+        <fo:page-sequence-master master-name="css2fo-default">
+            <fo:repeatable-page-master-alternatives>
+                <fo:conditional-page-master-reference
+                    master-reference="spm-css2fo-default-left-blank" odd-or-even="even"
+                    page-position="any" blank-or-not-blank="blank"/>
+                <fo:conditional-page-master-reference master-reference="spm-css2fo-default-left"
+                    odd-or-even="even" page-position="any" blank-or-not-blank="any"/>
+                <fo:conditional-page-master-reference
+                    master-reference="spm-css2fo-default-right-blank" odd-or-even="odd"
+                    page-position="any" blank-or-not-blank="blank"/>
+                <fo:conditional-page-master-reference master-reference="spm-css2fo-default-right"
+                    odd-or-even="odd" page-position="any" blank-or-not-blank="any"/>
+            </fo:repeatable-page-master-alternatives>
+        </fo:page-sequence-master>
+        <fo:simple-page-master master-name="spm-css2fo-default-left-blank" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-left-blank" extent="1in"/>
+            <fo:region-after region-name="sc-after-left-blank" extent="1in"/>
+            <fo:region-start region-name="sc-start-left-blank" extent="1in"/>
+            <fo:region-end region-name="sc-end-left-blank" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-css2fo-default-left" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-left" extent="1in"/>
+            <fo:region-after region-name="sc-after-left" extent="1in"/>
+            <fo:region-start region-name="sc-start-left" extent="1in"/>
+            <fo:region-end region-name="sc-end-left" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-css2fo-default-right-blank" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-right-blank" extent="1in"/>
+            <fo:region-after region-name="sc-after-right-blank" extent="1in"/>
+            <fo:region-start region-name="sc-start-right-blank" extent="1in"/>
+            <fo:region-end region-name="sc-end-right-blank" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-css2fo-default-right" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-right" extent="1in"/>
+            <fo:region-after region-name="sc-after-right" extent="1in"/>
+            <fo:region-start region-name="sc-start-right" extent="1in"/>
+            <fo:region-end region-name="sc-end-right" extent="1in"/>
+        </fo:simple-page-master>
+        <!-- Page: front-page-->
+        <fo:page-sequence-master master-name="front-page">
+            <fo:repeatable-page-master-alternatives>
+                <fo:conditional-page-master-reference master-reference="spm-front-page-left-blank"
+                    odd-or-even="even" page-position="any" blank-or-not-blank="blank"/>
+                <fo:conditional-page-master-reference master-reference="spm-front-page-left"
+                    odd-or-even="even" page-position="any" blank-or-not-blank="any"/>
+                <fo:conditional-page-master-reference master-reference="spm-front-page-right-blank"
+                    odd-or-even="odd" page-position="any" blank-or-not-blank="blank"/>
+                <fo:conditional-page-master-reference master-reference="spm-front-page-right"
+                    odd-or-even="odd" page-position="any" blank-or-not-blank="any"/>
+            </fo:repeatable-page-master-alternatives>
+        </fo:page-sequence-master>
+        <fo:simple-page-master master-name="spm-front-page-left-blank" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-left-blank" extent="1in"/>
+            <fo:region-after region-name="sc-after-left-blank" extent="1in"/>
+            <fo:region-start region-name="sc-start-left-blank" extent="1in"/>
+            <fo:region-end region-name="sc-end-left-blank" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-front-page-left" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-left" extent="1in"/>
+            <fo:region-after region-name="sc-after-left" extent="1in"/>
+            <fo:region-start region-name="sc-start-left" extent="1in"/>
+            <fo:region-end region-name="sc-end-left" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-front-page-right-blank" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-right-blank" extent="1in"/>
+            <fo:region-after region-name="sc-after-right-blank" extent="1in"/>
+            <fo:region-start region-name="sc-start-right-blank" extent="1in"/>
+            <fo:region-end region-name="sc-end-right-blank" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-front-page-right" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-right" extent="1in"/>
+            <fo:region-after region-name="sc-after-right" extent="1in"/>
+            <fo:region-start region-name="sc-start-right" extent="1in"/>
+            <fo:region-end region-name="sc-end-right" extent="1in"/>
+        </fo:simple-page-master>
+        <!-- Page: table-of-contents-->
+        <fo:page-sequence-master master-name="table-of-contents">
+            <fo:repeatable-page-master-alternatives>
+                <fo:conditional-page-master-reference
+                    master-reference="spm-table-of-contents-left-first-blank" odd-or-even="even"
+                    page-position="first" blank-or-not-blank="blank"/>
+                <fo:conditional-page-master-reference
+                    master-reference="spm-table-of-contents-left-first" odd-or-even="even"
+                    page-position="first" blank-or-not-blank="any"/>
+                <fo:conditional-page-master-reference
+                    master-reference="spm-table-of-contents-left-blank" odd-or-even="even"
+                    page-position="any" blank-or-not-blank="blank"/>
+                <fo:conditional-page-master-reference master-reference="spm-table-of-contents-left"
+                    odd-or-even="even" page-position="any" blank-or-not-blank="any"/>
+                <fo:conditional-page-master-reference
+                    master-reference="spm-table-of-contents-right-first-blank" odd-or-even="odd"
+                    page-position="first" blank-or-not-blank="blank"/>
+                <fo:conditional-page-master-reference
+                    master-reference="spm-table-of-contents-right-first" odd-or-even="odd"
+                    page-position="first" blank-or-not-blank="any"/>
+                <fo:conditional-page-master-reference
+                    master-reference="spm-table-of-contents-right-blank" odd-or-even="odd"
+                    page-position="any" blank-or-not-blank="blank"/>
+                <fo:conditional-page-master-reference master-reference="spm-table-of-contents-right"
+                    odd-or-even="odd" page-position="any" blank-or-not-blank="any"/>
+            </fo:repeatable-page-master-alternatives>
+        </fo:page-sequence-master>
+        <fo:simple-page-master master-name="spm-table-of-contents-left-first-blank"
+            page-width="8.5in" page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-left-first-blank" extent="1in"/>
+            <fo:region-after region-name="sc-after-left-first-blank" extent="1in"/>
+            <fo:region-start region-name="sc-start-left-first-blank" extent="1in"/>
+            <fo:region-end region-name="sc-end-left-first-blank" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-table-of-contents-left-first" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-left-first" extent="1in"/>
+            <fo:region-after region-name="sc-after-left-first" extent="1in"/>
+            <fo:region-start region-name="sc-start-left-first" extent="1in"/>
+            <fo:region-end region-name="sc-end-left-first" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-table-of-contents-left-blank" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-left-blank" extent="1in"/>
+            <fo:region-after region-name="sc-after-left-blank" extent="1in"/>
+            <fo:region-start region-name="sc-start-left-blank" extent="1in"/>
+            <fo:region-end region-name="sc-end-left-blank" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-table-of-contents-left" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-left" extent="1in"/>
+            <fo:region-after region-name="sc-after-left" extent="1in"/>
+            <fo:region-start region-name="sc-start-left" extent="1in"/>
+            <fo:region-end region-name="sc-end-left" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-table-of-contents-right-first-blank"
+            page-width="8.5in" page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-right-first-blank" extent="1in"/>
+            <fo:region-after region-name="sc-after-right-first-blank" extent="1in"/>
+            <fo:region-start region-name="sc-start-right-first-blank" extent="1in"/>
+            <fo:region-end region-name="sc-end-right-first-blank" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-table-of-contents-right-first" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-right-first" extent="1in"/>
+            <fo:region-after region-name="sc-after-right-first" extent="1in"/>
+            <fo:region-start region-name="sc-start-right-first" extent="1in"/>
+            <fo:region-end region-name="sc-end-right-first" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-table-of-contents-right-blank" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-right-blank" extent="1in"/>
+            <fo:region-after region-name="sc-after-right-blank" extent="1in"/>
+            <fo:region-start region-name="sc-start-right-blank" extent="1in"/>
+            <fo:region-end region-name="sc-end-right-blank" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-table-of-contents-right" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-right" extent="1in"/>
+            <fo:region-after region-name="sc-after-right" extent="1in"/>
+            <fo:region-start region-name="sc-start-right" extent="1in"/>
+            <fo:region-end region-name="sc-end-right" extent="1in"/>
+        </fo:simple-page-master>
+        <!-- Page: index-->
+        <fo:page-sequence-master master-name="index">
+            <fo:repeatable-page-master-alternatives>
+                <fo:conditional-page-master-reference master-reference="spm-index-left-blank"
+                    odd-or-even="even" page-position="any" blank-or-not-blank="blank"/>
+                <fo:conditional-page-master-reference master-reference="spm-index-left"
+                    odd-or-even="even" page-position="any" blank-or-not-blank="any"/>
+                <fo:conditional-page-master-reference master-reference="spm-index-right-blank"
+                    odd-or-even="odd" page-position="any" blank-or-not-blank="blank"/>
+                <fo:conditional-page-master-reference master-reference="spm-index-right"
+                    odd-or-even="odd" page-position="any" blank-or-not-blank="any"/>
+            </fo:repeatable-page-master-alternatives>
+        </fo:page-sequence-master>
+        <fo:simple-page-master master-name="spm-index-left-blank" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" column-count="2"
+                margin-top="1in" margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-left-blank" extent="1in"/>
+            <fo:region-after region-name="sc-after-left-blank" extent="1in"/>
+            <fo:region-start region-name="sc-start-left-blank" extent="1in"/>
+            <fo:region-end region-name="sc-end-left-blank" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-index-left" page-width="8.5in" page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" column-count="2"
+                margin-top="1in" margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-left" extent="1in"/>
+            <fo:region-after region-name="sc-after-left" extent="1in"/>
+            <fo:region-start region-name="sc-start-left" extent="1in"/>
+            <fo:region-end region-name="sc-end-left" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-index-right-blank" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" column-count="2"
+                margin-top="1in" margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-right-blank" extent="1in"/>
+            <fo:region-after region-name="sc-after-right-blank" extent="1in"/>
+            <fo:region-start region-name="sc-start-right-blank" extent="1in"/>
+            <fo:region-end region-name="sc-end-right-blank" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-index-right" page-width="8.5in" page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" column-count="2"
+                margin-top="1in" margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-right" extent="1in"/>
+            <fo:region-after region-name="sc-after-right" extent="1in"/>
+            <fo:region-start region-name="sc-start-right" extent="1in"/>
+            <fo:region-end region-name="sc-end-right" extent="1in"/>
+        </fo:simple-page-master>
+        <!-- Page: chapter-->
+        <fo:page-sequence-master master-name="chapter">
+            <fo:repeatable-page-master-alternatives>
+                <fo:conditional-page-master-reference
+                    master-reference="spm-chapter-left-first-blank" odd-or-even="even"
+                    page-position="first" blank-or-not-blank="blank"/>
+                <fo:conditional-page-master-reference master-reference="spm-chapter-left-first"
+                    odd-or-even="even" page-position="first" blank-or-not-blank="any"/>
+                <fo:conditional-page-master-reference master-reference="spm-chapter-left-blank"
+                    odd-or-even="even" page-position="any" blank-or-not-blank="blank"/>
+                <fo:conditional-page-master-reference master-reference="spm-chapter-left"
+                    odd-or-even="even" page-position="any" blank-or-not-blank="any"/>
+                <fo:conditional-page-master-reference
+                    master-reference="spm-chapter-right-first-blank" odd-or-even="odd"
+                    page-position="first" blank-or-not-blank="blank"/>
+                <fo:conditional-page-master-reference master-reference="spm-chapter-right-first"
+                    odd-or-even="odd" page-position="first" blank-or-not-blank="any"/>
+                <fo:conditional-page-master-reference master-reference="spm-chapter-right-blank"
+                    odd-or-even="odd" page-position="any" blank-or-not-blank="blank"/>
+                <fo:conditional-page-master-reference master-reference="spm-chapter-right"
+                    odd-or-even="odd" page-position="any" blank-or-not-blank="any"/>
+            </fo:repeatable-page-master-alternatives>
+        </fo:page-sequence-master>
+        <fo:simple-page-master master-name="spm-chapter-left-first-blank" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-left-first-blank" extent="1in"/>
+            <fo:region-after region-name="sc-after-left-first-blank" extent="1in"/>
+            <fo:region-start region-name="sc-start-left-first-blank" extent="1in"/>
+            <fo:region-end region-name="sc-end-left-first-blank" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-chapter-left-first" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-left-first" extent="1in"/>
+            <fo:region-after region-name="sc-after-left-first" extent="1in"/>
+            <fo:region-start region-name="sc-start-left-first" extent="1in"/>
+            <fo:region-end region-name="sc-end-left-first" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-chapter-left-blank" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-left-blank" extent="1in"/>
+            <fo:region-after region-name="sc-after-left-blank" extent="1in"/>
+            <fo:region-start region-name="sc-start-left-blank" extent="1in"/>
+            <fo:region-end region-name="sc-end-left-blank" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-chapter-left" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-left" extent="1in"/>
+            <fo:region-after region-name="sc-after-left" extent="1in"/>
+            <fo:region-start region-name="sc-start-left" extent="1in"/>
+            <fo:region-end region-name="sc-end-left" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-chapter-right-first-blank" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-right-first-blank" extent="1in"/>
+            <fo:region-after region-name="sc-after-right-first-blank" extent="1in"/>
+            <fo:region-start region-name="sc-start-right-first-blank" extent="1in"/>
+            <fo:region-end region-name="sc-end-right-first-blank" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-chapter-right-first" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-right-first" extent="1in"/>
+            <fo:region-after region-name="sc-after-right-first" extent="1in"/>
+            <fo:region-start region-name="sc-start-right-first" extent="1in"/>
+            <fo:region-end region-name="sc-end-right-first" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-chapter-right-blank" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-right-blank" extent="1in"/>
+            <fo:region-after region-name="sc-after-right-blank" extent="1in"/>
+            <fo:region-start region-name="sc-start-right-blank" extent="1in"/>
+            <fo:region-end region-name="sc-end-right-blank" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-chapter-right" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-right" extent="1in"/>
+            <fo:region-after region-name="sc-after-right" extent="1in"/>
+            <fo:region-start region-name="sc-start-right" extent="1in"/>
+            <fo:region-end region-name="sc-end-right" extent="1in"/>
+        </fo:simple-page-master>
+        <!-- Page: matter-page-->
+        <fo:page-sequence-master master-name="matter-page">
+            <fo:repeatable-page-master-alternatives>
+                <fo:conditional-page-master-reference master-reference="spm-matter-page-left-blank"
+                    odd-or-even="even" page-position="any" blank-or-not-blank="blank"/>
+                <fo:conditional-page-master-reference master-reference="spm-matter-page-left"
+                    odd-or-even="even" page-position="any" blank-or-not-blank="any"/>
+                <fo:conditional-page-master-reference master-reference="spm-matter-page-right-blank"
+                    odd-or-even="odd" page-position="any" blank-or-not-blank="blank"/>
+                <fo:conditional-page-master-reference master-reference="spm-matter-page-right"
+                    odd-or-even="odd" page-position="any" blank-or-not-blank="any"/>
+            </fo:repeatable-page-master-alternatives>
+        </fo:page-sequence-master>
+        <fo:simple-page-master master-name="spm-matter-page-left-blank" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-left-blank" extent="1in"/>
+            <fo:region-after region-name="sc-after-left-blank" extent="1in"/>
+            <fo:region-start region-name="sc-start-left-blank" extent="1in"/>
+            <fo:region-end region-name="sc-end-left-blank" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-matter-page-left" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-left" extent="1in"/>
+            <fo:region-after region-name="sc-after-left" extent="1in"/>
+            <fo:region-start region-name="sc-start-left" extent="1in"/>
+            <fo:region-end region-name="sc-end-left" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-matter-page-right-blank" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-right-blank" extent="1in"/>
+            <fo:region-after region-name="sc-after-right-blank" extent="1in"/>
+            <fo:region-start region-name="sc-start-right-blank" extent="1in"/>
+            <fo:region-end region-name="sc-end-right-blank" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-matter-page-right" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-right" extent="1in"/>
+            <fo:region-after region-name="sc-after-right" extent="1in"/>
+            <fo:region-start region-name="sc-start-right" extent="1in"/>
+            <fo:region-end region-name="sc-end-right" extent="1in"/>
+        </fo:simple-page-master>
+        <!-- Page: portrait-page-->
+        <fo:page-sequence-master master-name="portrait-page">
+            <fo:repeatable-page-master-alternatives>
+                <fo:conditional-page-master-reference
+                    master-reference="spm-portrait-page-left-blank" odd-or-even="even"
+                    page-position="any" blank-or-not-blank="blank"/>
+                <fo:conditional-page-master-reference master-reference="spm-portrait-page-left"
+                    odd-or-even="even" page-position="any" blank-or-not-blank="any"/>
+                <fo:conditional-page-master-reference
+                    master-reference="spm-portrait-page-right-blank" odd-or-even="odd"
+                    page-position="any" blank-or-not-blank="blank"/>
+                <fo:conditional-page-master-reference master-reference="spm-portrait-page-right"
+                    odd-or-even="odd" page-position="any" blank-or-not-blank="any"/>
+            </fo:repeatable-page-master-alternatives>
+        </fo:page-sequence-master>
+        <fo:simple-page-master master-name="spm-portrait-page-left-blank" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-left-blank" extent="1in"/>
+            <fo:region-after region-name="sc-after-left-blank" extent="1in"/>
+            <fo:region-start region-name="sc-start-left-blank" extent="1in"/>
+            <fo:region-end region-name="sc-end-left-blank" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-portrait-page-left" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-left" extent="1in"/>
+            <fo:region-after region-name="sc-after-left" extent="1in"/>
+            <fo:region-start region-name="sc-start-left" extent="1in"/>
+            <fo:region-end region-name="sc-end-left" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-portrait-page-right-blank" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-right-blank" extent="1in"/>
+            <fo:region-after region-name="sc-after-right-blank" extent="1in"/>
+            <fo:region-start region-name="sc-start-right-blank" extent="1in"/>
+            <fo:region-end region-name="sc-end-right-blank" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-portrait-page-right" page-width="8.5in"
+            page-height="11.0in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-right" extent="1in"/>
+            <fo:region-after region-name="sc-after-right" extent="1in"/>
+            <fo:region-start region-name="sc-start-right" extent="1in"/>
+            <fo:region-end region-name="sc-end-right" extent="1in"/>
+        </fo:simple-page-master>
+        <!-- Page: landscape-page-->
+        <fo:page-sequence-master master-name="landscape-page">
+            <fo:repeatable-page-master-alternatives>
+                <fo:conditional-page-master-reference
+                    master-reference="spm-landscape-page-left-blank" odd-or-even="even"
+                    page-position="any" blank-or-not-blank="blank"/>
+                <fo:conditional-page-master-reference master-reference="spm-landscape-page-left"
+                    odd-or-even="even" page-position="any" blank-or-not-blank="any"/>
+                <fo:conditional-page-master-reference
+                    master-reference="spm-landscape-page-right-blank" odd-or-even="odd"
+                    page-position="any" blank-or-not-blank="blank"/>
+                <fo:conditional-page-master-reference master-reference="spm-landscape-page-right"
+                    odd-or-even="odd" page-position="any" blank-or-not-blank="any"/>
+            </fo:repeatable-page-master-alternatives>
+        </fo:page-sequence-master>
+        <fo:simple-page-master master-name="spm-landscape-page-left-blank" page-width="11.0in"
+            page-height="8.5in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-left-blank" extent="1in"/>
+            <fo:region-after region-name="sc-after-left-blank" extent="1in"/>
+            <fo:region-start region-name="sc-start-left-blank" extent="1in"/>
+            <fo:region-end region-name="sc-end-left-blank" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-landscape-page-left" page-width="11.0in"
+            page-height="8.5in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-left" extent="1in"/>
+            <fo:region-after region-name="sc-after-left" extent="1in"/>
+            <fo:region-start region-name="sc-start-left" extent="1in"/>
+            <fo:region-end region-name="sc-end-left" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-landscape-page-right-blank" page-width="11.0in"
+            page-height="8.5in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-right-blank" extent="1in"/>
+            <fo:region-after region-name="sc-after-right-blank" extent="1in"/>
+            <fo:region-start region-name="sc-start-right-blank" extent="1in"/>
+            <fo:region-end region-name="sc-end-right-blank" extent="1in"/>
+        </fo:simple-page-master>
+        <fo:simple-page-master master-name="spm-landscape-page-right" page-width="11.0in"
+            page-height="8.5in">
+            <fo:region-body padding-top="0.2em" padding-bottom="0.2em" margin-top="1in"
+                margin-bottom="1in" margin-left="1in" margin-right="1in"/>
+            <fo:region-before region-name="sc-before-right" extent="1in"/>
+            <fo:region-after region-name="sc-after-right" extent="1in"/>
+            <fo:region-start region-name="sc-start-right" extent="1in"/>
+            <fo:region-end region-name="sc-end-right" extent="1in"/>
+        </fo:simple-page-master>
+    </fo:layout-master-set>
+    <fo:declarations>
+        <x:xmpmeta xmlns:x="adobe:ns:meta/">
+            <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+                <rdf:Description>
+                    <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/"/>
+                    <xmp:CreatorTool xmlns:xmp="http://ns.adobe.com/xap/1.0/">oXygen PDF Chemistry
+                        Version 21.0 Build 2019-02-09T00:30:05Z</xmp:CreatorTool>
+                </rdf:Description>
+            </rdf:RDF>
+        </x:xmpmeta>
+        <pdf:catalog xmlns:pdf="http://xmlgraphics.apache.org/fop/extensions/pdf">
+            <pdf:dictionary key="ViewerPreferences">
+                <pdf:boolean key="DisplayDocTitle">true</pdf:boolean>
+            </pdf:dictionary>
+        </pdf:catalog>
+    </fo:declarations>
+    <fox:destination internal-destination="ariaid-title1"/>
+    <fox:destination internal-destination="ariaid-title2"/>
+    <fox:destination internal-destination="ariaid-title3"/>
+    <fox:destination internal-destination="concept_w1g_qpv_phb"/>
+    <fox:destination internal-destination="concept_llv_ppv_phb"/>
+    <fox:destination internal-destination="concept_lwq_15x_nhb"/>
+    <fox:destination internal-destination="image_ydv_rwv_phb"/>
+    <fo:bookmark-tree>
+        <fo:bookmark internal-destination="d34e240">
+            <fo:bookmark-title>My Visit to Dancing Rabbit Ecovillage</fo:bookmark-title>
+        </fo:bookmark>
+        <fo:bookmark internal-destination="d34e260">
+            <fo:bookmark-title>Contents</fo:bookmark-title>
+        </fo:bookmark>
+        <fo:bookmark internal-destination="ariaid-title1">
+            <fo:bookmark-title>Chapter 1. Introduction</fo:bookmark-title>
+        </fo:bookmark>
+        <fo:bookmark internal-destination="ariaid-title2">
+            <fo:bookmark-title>Chapter 2. A Quick Overview of Dancing Rabbit</fo:bookmark-title>
+        </fo:bookmark>
+        <fo:bookmark internal-destination="ariaid-title3">
+            <fo:bookmark-title>Chapter 3. Infrastructure and Zoning</fo:bookmark-title>
+        </fo:bookmark>
+    </fo:bookmark-tree>
+    <fo:page-sequence master-reference="front-page" force-page-count="no-force"
+        initial-page-number="1" line-height-shift-adjustment="disregard-shifts">
+        <fo:static-content flow-name="xsl-footnote-separator" role="artifact" text-align="left"
+            display-align="auto" font-size="8pt" border-top-style="solid" border-top-color="black"
+            border-top-width="thin" padding-top="8pt">
+            <fo:block/>
+        </fo:static-content>
+        <fo:flow flow-name="xsl-region-body">
+            <fo:block
+                font-family="serif, Times, Times New Roman, Symbol, MingLiU, MS Mincho, Arial Unicode MS"
+                font-size="12px">
+                <fo:block-container font-size="11.5pt" margin-left="0" margin-right="0">
+                    <fo:block end-indent="0" start-indent="0">
+                        <fo:block>
+                            <fo:block>
+                                <fo:block>
+                                    <fo:block><fo:marker marker-class-name="toc-header"
+                                            ><fo:inline/>Contents</fo:marker><fo:block>
+                                            <fo:block-container
+                                                font-family="Arial, helvetica, sans-serif"
+                                                font-size="2em" font-weight="bold" margin-top="3in"
+                                                text-align="center">
+                                                <fo:block end-indent="0" start-indent="0">
+                                                  <fo:block id="d34e240" page-break-after="avoid"
+                                                  ><fo:marker marker-class-name="maptitle"
+                                                  ><fo:inline/><!--content(text)--><fo:inline>My
+                                                  Visit to Dancing Rabbit
+                                                  Ecovillage</fo:inline></fo:marker>My Visit to
+                                                  Dancing Rabbit Ecovillage</fo:block>
+                                                </fo:block>
+                                            </fo:block-container>
+                                        </fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+                </fo:block-container></fo:block>
+        </fo:flow>
+    </fo:page-sequence>
+    <fo:page-sequence master-reference="table-of-contents" force-page-count="no-force" format="i"
+        line-height-shift-adjustment="disregard-shifts">
+        <fo:static-content flow-name="sc-before-left" role="artifact">
+            <fo:table border-collapse="separate" table-layout="fixed" width="100%">
+                <fo:table-body>
+                    <fo:table-row>
+                        <!--TOP-LEFT-->
+                        <fo:table-cell start-indent="0" end-indent="0" height="1in"
+                            width="(8.5in - 1in - 1in)" text-align="left" display-align="center"
+                            font-size="8pt">
+                            <fo:block><fo:retrieve-marker retrieve-class-name="toc-header"
+                                    retrieve-boundary="document"
+                                    retrieve-position="first-including-carryover"/> |
+                                <fo:page-number/></fo:block>
+                        </fo:table-cell>
+                    </fo:table-row>
+                </fo:table-body>
+            </fo:table>
+        </fo:static-content>
+        <fo:static-content flow-name="sc-before-right" role="artifact">
+            <fo:table border-collapse="separate" table-layout="fixed" width="100%">
+                <fo:table-body>
+                    <fo:table-row>
+                        <!--TOP-RIGHT-->
+                        <fo:table-cell start-indent="0" end-indent="0" height="1in"
+                            width="(8.5in - 1in - 1in)" text-align="right" display-align="center"
+                            font-size="8pt">
+                            <fo:block><fo:retrieve-marker retrieve-class-name="toc-header"
+                                    retrieve-boundary="document"
+                                    retrieve-position="first-including-carryover"/> |
+                                <fo:page-number/></fo:block>
+                        </fo:table-cell>
+                    </fo:table-row>
+                </fo:table-body>
+            </fo:table>
+        </fo:static-content>
+        <fo:static-content flow-name="xsl-footnote-separator" role="artifact" text-align="left"
+            display-align="auto" font-size="8pt" border-top-style="solid" border-top-color="black"
+            border-top-width="thin" padding-top="8pt">
+            <fo:block/>
+        </fo:static-content>
+        <fo:flow flow-name="xsl-region-body">
+            <fo:block
+                font-family="serif, Times, Times New Roman, Symbol, MingLiU, MS Mincho, Arial Unicode MS"
+                font-size="12px"><fo:block-container font-size="11.5pt" margin-left="0"
+                    margin-right="0">
+                    <fo:block end-indent="0" start-indent="0"><fo:block><fo:block><fo:block><fo:block><fo:block>
+                                            <fo:block-container id="d34e260" font-size="2em"
+                                                margin-bottom="1em">
+                                                <fo:block end-indent="0" start-indent="0"
+                                                  ><fo:inline>Contents</fo:inline></fo:block>
+                                            </fo:block-container>
+                                            <fo:block-container font-weight="bold"
+                                                margin-bottom="0.5em" margin-left="0"
+                                                margin-top="0.5em">
+                                                <fo:block end-indent="0" start-indent="0">
+                                                  <fo:block-container
+                                                  border-bottom-color="transparent"
+                                                  border-bottom-width="2pt"
+                                                  border-bottom-style="none"
+                                                  border-left-color="transparent"
+                                                  border-left-width="2pt" border-left-style="none"
+                                                  border-right-color="transparent"
+                                                  border-right-width="2pt" border-right-style="none"
+                                                  border-top-color="transparent"
+                                                  border-top-width="2pt" border-top-style="none"
+                                                  margin-bottom="0" margin-left="0" margin-right="0"
+                                                  margin-top="0" padding-bottom="0" padding-left="0"
+                                                  padding-right="0" padding-top="0">
+                                                  <fo:block end-indent="0" start-indent="0">
+                                                  <fo:inline/>
+                                                  <fo:block text-align-last="justify"><fo:basic-link
+                                                  show-destination="new" indicate-destination="true"
+                                                  internal-destination="unique_1"
+                                                  ><fo:inline><fo:basic-link show-destination="new"
+                                                  indicate-destination="true"
+                                                  internal-destination="unique_1">Chapter
+                                                  </fo:basic-link><fo:basic-link
+                                                  show-destination="new" indicate-destination="true"
+                                                  internal-destination="unique_1"
+                                                  >1</fo:basic-link><fo:basic-link
+                                                  show-destination="new" indicate-destination="true"
+                                                  internal-destination="unique_1">.
+                                                  </fo:basic-link></fo:inline></fo:basic-link><fo:basic-link
+                                                  show-destination="new" indicate-destination="true"
+                                                  internal-destination="unique_1"
+                                                  >Introduction</fo:basic-link><fo:basic-link
+                                                  show-destination="new" indicate-destination="true"
+                                                  internal-destination="unique_1"
+                                                  ><fo:inline><fo:basic-link show-destination="new"
+                                                  indicate-destination="true"
+                                                  internal-destination="unique_1"><fo:leader
+                                                  leader-pattern="dots"
+                                                  /></fo:basic-link><fo:basic-link
+                                                  show-destination="new" indicate-destination="true"
+                                                  internal-destination="unique_1"
+                                                  ><fo:page-number-citation ref-id="unique_1"
+                                                  /></fo:basic-link></fo:inline></fo:basic-link></fo:block>
+                                                  </fo:block>
+                                                  </fo:block-container>
+                                                </fo:block>
+                                            </fo:block-container>
+                                            <fo:block-container font-weight="bold"
+                                                margin-bottom="0.5em" margin-left="0"
+                                                margin-top="0.5em">
+                                                <fo:block end-indent="0" start-indent="0">
+                                                  <fo:block-container
+                                                  border-bottom-color="transparent"
+                                                  border-bottom-width="2pt"
+                                                  border-bottom-style="none"
+                                                  border-left-color="transparent"
+                                                  border-left-width="2pt" border-left-style="none"
+                                                  border-right-color="transparent"
+                                                  border-right-width="2pt" border-right-style="none"
+                                                  border-top-color="transparent"
+                                                  border-top-width="2pt" border-top-style="none"
+                                                  margin-bottom="0" margin-left="0" margin-right="0"
+                                                  margin-top="0" padding-bottom="0" padding-left="0"
+                                                  padding-right="0" padding-top="0">
+                                                  <fo:block end-indent="0" start-indent="0">
+                                                  <fo:inline/>
+                                                  <fo:block text-align-last="justify"><fo:basic-link
+                                                  show-destination="new" indicate-destination="true"
+                                                  internal-destination="unique_2"
+                                                  ><fo:inline><fo:basic-link show-destination="new"
+                                                  indicate-destination="true"
+                                                  internal-destination="unique_2">Chapter
+                                                  </fo:basic-link><fo:basic-link
+                                                  show-destination="new" indicate-destination="true"
+                                                  internal-destination="unique_2"
+                                                  >2</fo:basic-link><fo:basic-link
+                                                  show-destination="new" indicate-destination="true"
+                                                  internal-destination="unique_2">.
+                                                  </fo:basic-link></fo:inline></fo:basic-link><fo:basic-link
+                                                  show-destination="new" indicate-destination="true"
+                                                  internal-destination="unique_2">A Quick Overview
+                                                  of Dancing Rabbit</fo:basic-link><fo:basic-link
+                                                  show-destination="new" indicate-destination="true"
+                                                  internal-destination="unique_2"
+                                                  ><fo:inline><fo:basic-link show-destination="new"
+                                                  indicate-destination="true"
+                                                  internal-destination="unique_2"><fo:leader
+                                                  leader-pattern="dots"
+                                                  /></fo:basic-link><fo:basic-link
+                                                  show-destination="new" indicate-destination="true"
+                                                  internal-destination="unique_2"
+                                                  ><fo:page-number-citation ref-id="unique_2"
+                                                  /></fo:basic-link></fo:inline></fo:basic-link></fo:block>
+                                                  </fo:block>
+                                                  </fo:block-container>
+                                                </fo:block>
+                                            </fo:block-container>
+                                            <fo:block-container font-weight="bold"
+                                                margin-bottom="0.5em" margin-left="0"
+                                                margin-top="0.5em">
+                                                <fo:block end-indent="0" start-indent="0">
+                                                  <fo:block-container
+                                                  border-bottom-color="transparent"
+                                                  border-bottom-width="2pt"
+                                                  border-bottom-style="none"
+                                                  border-left-color="transparent"
+                                                  border-left-width="2pt" border-left-style="none"
+                                                  border-right-color="transparent"
+                                                  border-right-width="2pt" border-right-style="none"
+                                                  border-top-color="transparent"
+                                                  border-top-width="2pt" border-top-style="none"
+                                                  margin-bottom="0" margin-left="0" margin-right="0"
+                                                  margin-top="0" padding-bottom="0" padding-left="0"
+                                                  padding-right="0" padding-top="0">
+                                                  <fo:block end-indent="0" start-indent="0">
+                                                  <fo:inline/>
+                                                  <fo:block text-align-last="justify"><fo:basic-link
+                                                  show-destination="new" indicate-destination="true"
+                                                  internal-destination="unique_3"
+                                                  ><fo:inline><fo:basic-link show-destination="new"
+                                                  indicate-destination="true"
+                                                  internal-destination="unique_3">Chapter
+                                                  </fo:basic-link><fo:basic-link
+                                                  show-destination="new" indicate-destination="true"
+                                                  internal-destination="unique_3"
+                                                  >3</fo:basic-link><fo:basic-link
+                                                  show-destination="new" indicate-destination="true"
+                                                  internal-destination="unique_3">.
+                                                  </fo:basic-link></fo:inline></fo:basic-link><fo:basic-link
+                                                  show-destination="new" indicate-destination="true"
+                                                  internal-destination="unique_3">Infrastructure and
+                                                  Zoning</fo:basic-link><fo:basic-link
+                                                  show-destination="new" indicate-destination="true"
+                                                  internal-destination="unique_3"
+                                                  ><fo:inline><fo:basic-link show-destination="new"
+                                                  indicate-destination="true"
+                                                  internal-destination="unique_3"><fo:leader
+                                                  leader-pattern="dots"
+                                                  /></fo:basic-link><fo:basic-link
+                                                  show-destination="new" indicate-destination="true"
+                                                  internal-destination="unique_3"
+                                                  ><fo:page-number-citation ref-id="unique_3"
+                                                  /></fo:basic-link></fo:inline></fo:basic-link></fo:block>
+                                                  </fo:block>
+                                                  </fo:block-container>
+                                                </fo:block>
+                                            </fo:block-container>
+                                        </fo:block></fo:block></fo:block></fo:block></fo:block></fo:block>
+                </fo:block-container></fo:block>
+        </fo:flow>
+    </fo:page-sequence>
+    <fo:page-sequence master-reference="chapter" force-page-count="no-force" initial-page-number="1"
+        line-height-shift-adjustment="disregard-shifts">
+        <fo:static-content flow-name="sc-before-left" role="artifact">
+            <fo:table border-collapse="separate" table-layout="fixed" width="100%">
+                <fo:table-body>
+                    <fo:table-row>
+                        <!--TOP-LEFT-->
+                        <fo:table-cell start-indent="0" end-indent="0" height="1in"
+                            width="(8.5in - 1in - 1in)" text-align="left" display-align="center"
+                            font-size="8pt">
+                            <fo:block><fo:retrieve-marker retrieve-class-name="maptitle"
+                                    retrieve-boundary="document"
+                                    retrieve-position="first-including-carryover"
+                                    /><fo:retrieve-marker retrieve-class-name="parttitle"
+                                    retrieve-boundary="document"
+                                    retrieve-position="first-including-carryover"
+                                    /><fo:retrieve-marker retrieve-class-name="chaptertitle"
+                                    retrieve-boundary="document"
+                                    retrieve-position="first-including-carryover"
+                                    /><fo:retrieve-marker retrieve-class-name="sectiontitle"
+                                    retrieve-boundary="document"
+                                    retrieve-position="first-including-carryover"/> |
+                                <fo:page-number/></fo:block>
+                        </fo:table-cell>
+                    </fo:table-row>
+                </fo:table-body>
+            </fo:table>
+        </fo:static-content>
+        <fo:static-content flow-name="sc-before-right" role="artifact">
+            <fo:table border-collapse="separate" table-layout="fixed" width="100%">
+                <fo:table-body>
+                    <fo:table-row>
+                        <!--TOP-RIGHT-->
+                        <fo:table-cell start-indent="0" end-indent="0" height="1in"
+                            width="(8.5in - 1in - 1in)" text-align="right" display-align="center"
+                            font-size="8pt">
+                            <fo:block><fo:retrieve-marker retrieve-class-name="maptitle"
+                                    retrieve-boundary="document"
+                                    retrieve-position="first-including-carryover"
+                                    /><fo:retrieve-marker retrieve-class-name="parttitle"
+                                    retrieve-boundary="document"
+                                    retrieve-position="first-including-carryover"
+                                    /><fo:retrieve-marker retrieve-class-name="chaptertitle"
+                                    retrieve-boundary="document"
+                                    retrieve-position="first-including-carryover"
+                                    /><fo:retrieve-marker retrieve-class-name="sectiontitle"
+                                    retrieve-boundary="document"
+                                    retrieve-position="first-including-carryover"/> |
+                                <fo:page-number/></fo:block>
+                        </fo:table-cell>
+                    </fo:table-row>
+                </fo:table-body>
+            </fo:table>
+        </fo:static-content>
+        <fo:static-content flow-name="xsl-footnote-separator" role="artifact" text-align="left"
+            display-align="auto" font-size="8pt" border-top-style="solid" border-top-color="black"
+            border-top-width="thin" padding-top="8pt">
+            <fo:block/>
+        </fo:static-content>
+        <fo:flow flow-name="xsl-region-body">
+            <fo:block
+                font-family="serif, Times, Times New Roman, Symbol, MingLiU, MS Mincho, Arial Unicode MS"
+                font-size="12px"><fo:block-container font-size="11.5pt" margin-left="0"
+                    margin-right="0">
+                    <fo:block end-indent="0" start-indent="0"
+                                            ><fo:block><fo:block><fo:block><fo:block><fo:block-container
+                                            margin-top="1em" id="unique_1">
+                                            <fo:block id="concept_w1g_qpv_phb" font-size="0"/>
+                                            <fo:block end-indent="0" start-indent="0" role="Sect">
+                                                <fo:block-container font-size="2em"
+                                                  margin-bottom="1em" margin-left="0"
+                                                  margin-right="0" margin-top="0"
+                                                  page-break-after="avoid" id="ariaid-title1">
+                                                  <fo:block end-indent="0" start-indent="0"
+                                                  role="H1"><fo:marker
+                                                  marker-class-name="chaptertitle"><fo:inline/> | 1
+                                                  -
+                                                  <!--content(text)--><fo:inline>Introduction</fo:inline></fo:marker><fo:inline>Chapter
+                                                  1. </fo:inline>Introduction</fo:block>
+                                                </fo:block-container>
+                                                <fo:block-container margin-bottom="0"
+                                                  margin-left="0" margin-right="0" margin-top="0">
+                                                  <fo:block end-indent="0" start-indent="0">
+                                                  <fo:block-container margin-bottom="0.5em"
+                                                  margin-left="0" margin-right="0"
+                                                  margin-top="0.5em">
+                                                  <fo:block end-indent="0" start-indent="0"
+                                                  >Introduction about my reason for visiting Dancing
+                                                  Rabbit</fo:block>
+                                                  </fo:block-container>
+                                                  <fo:block-container margin-bottom="0.5em"
+                                                  margin-left="0" margin-right="0" margin-top="1em">
+                                                  <fo:block end-indent="0" start-indent="0">Hoping
+                                                  to discover the simple life in a sustainable
+                                                  utopia, I visited a few ecovillages over the
+                                                  years, starting with my visit to Dancing Rabbit
+                                                  Ecovillage (DR for short) during the summer of
+                                                  2012. Ecovillages are intentional communities with
+                                                  a focus on ecological sustainability. Having been
+                                                  interested in sustainability and alternative
+                                                  lifestyles for some time while working in
+                                                  technology companies, I initially thought about
+                                                  becoming a farmer and volunteered at a few organic
+                                                  farms until I realized how difficult farming is. I
+                                                  shifted my focus to looking for sustainable
+                                                  communities and learned about DR on the Internet.
+                                                  DR is an ecovillage in Rutledge, MO that set
+                                                  itself apart from the mainstream by locally
+                                                  generating electricity from renewable sources,
+                                                  using composting toilets, building houses with
+                                                  natural materials, reducing fossil fuel
+                                                  consumption, and focusing on forming a close-knit
+                                                  community. For a period of two weeks from June
+                                                  25th to July 9th of 2012, I lived at DR to
+                                                  participate in its visitor program for prospective
+                                                  residents. As a part of the program, we also
+                                                  visited Sandhill Farm, a small income-sharing
+                                                  community in the same town for a day. Immediately
+                                                  after my two-week visit, I stayed for two days in
+                                                  DR's sister village Red Earth Farms. In September
+                                                  of 2015, I visited two more ecovillages, spending
+                                                  one week at Earthaven Ecovillage in Black
+                                                  Mountain, NC and just one day at Sirius Community.
+                                                  </fo:block>
+                                                  </fo:block-container>
+                                                  <fo:block-container margin-bottom="0.5em"
+                                                  margin-left="0" margin-right="0" margin-top="1em">
+                                                  <fo:block end-indent="0" start-indent="0">While
+                                                  the visit to various ecovillages showed me
+                                                  inspiring ways to re-design our neighborhoods and
+                                                  our day-to-day lives, I also realized that the
+                                                  simple life is not so simple, and starting
+                                                  newsustainable villages from scratch is an
+                                                  impractical solution on a massive scale. Since I
+                                                  stayed at Dancing Rabbit the longest out of the
+                                                  four ecovillages I visited, I decided to write an
+                                                  essay about it. Another reason for focusing on DR
+                                                  over other ecovillages is that I had the most
+                                                  favorable impression of DR out of all the
+                                                  ecovillages I visited. I occasionally talk about
+                                                  in other ecovillages in this essay to compare them
+                                                  against Dancing Rabbit.</fo:block>
+                                                  </fo:block-container>
+                                                  </fo:block>
+                                                </fo:block-container>
+                                            </fo:block>
+                                        </fo:block-container></fo:block></fo:block></fo:block></fo:block></fo:block>
+                </fo:block-container></fo:block>
+        </fo:flow>
+    </fo:page-sequence>
+    <fo:page-sequence master-reference="chapter" force-page-count="no-force"
+        line-height-shift-adjustment="disregard-shifts">
+        <fo:static-content flow-name="sc-before-left" role="artifact">
+            <fo:table border-collapse="separate" table-layout="fixed" width="100%">
+                <fo:table-body>
+                    <fo:table-row>
+                        <!--TOP-LEFT-->
+                        <fo:table-cell start-indent="0" end-indent="0" height="1in"
+                            width="(8.5in - 1in - 1in)" text-align="left" display-align="center"
+                            font-size="8pt">
+                            <fo:block><fo:retrieve-marker retrieve-class-name="maptitle"
+                                    retrieve-boundary="document"
+                                    retrieve-position="first-including-carryover"
+                                    /><fo:retrieve-marker retrieve-class-name="parttitle"
+                                    retrieve-boundary="document"
+                                    retrieve-position="first-including-carryover"
+                                    /><fo:retrieve-marker retrieve-class-name="chaptertitle"
+                                    retrieve-boundary="document"
+                                    retrieve-position="first-including-carryover"
+                                    /><fo:retrieve-marker retrieve-class-name="sectiontitle"
+                                    retrieve-boundary="document"
+                                    retrieve-position="first-including-carryover"/> |
+                                <fo:page-number/></fo:block>
+                        </fo:table-cell>
+                    </fo:table-row>
+                </fo:table-body>
+            </fo:table>
+        </fo:static-content>
+        <fo:static-content flow-name="sc-before-right" role="artifact">
+            <fo:table border-collapse="separate" table-layout="fixed" width="100%">
+                <fo:table-body>
+                    <fo:table-row>
+                        <!--TOP-RIGHT-->
+                        <fo:table-cell start-indent="0" end-indent="0" height="1in"
+                            width="(8.5in - 1in - 1in)" text-align="right" display-align="center"
+                            font-size="8pt">
+                            <fo:block><fo:retrieve-marker retrieve-class-name="maptitle"
+                                    retrieve-boundary="document"
+                                    retrieve-position="first-including-carryover"
+                                    /><fo:retrieve-marker retrieve-class-name="parttitle"
+                                    retrieve-boundary="document"
+                                    retrieve-position="first-including-carryover"
+                                    /><fo:retrieve-marker retrieve-class-name="chaptertitle"
+                                    retrieve-boundary="document"
+                                    retrieve-position="first-including-carryover"
+                                    /><fo:retrieve-marker retrieve-class-name="sectiontitle"
+                                    retrieve-boundary="document"
+                                    retrieve-position="first-including-carryover"/> |
+                                <fo:page-number/></fo:block>
+                        </fo:table-cell>
+                    </fo:table-row>
+                </fo:table-body>
+            </fo:table>
+        </fo:static-content>
+        <fo:static-content flow-name="xsl-footnote-separator" role="artifact" text-align="left"
+            display-align="auto" font-size="8pt" border-top-style="solid" border-top-color="black"
+            border-top-width="thin" padding-top="8pt">
+            <fo:block/>
+        </fo:static-content>
+        <fo:flow flow-name="xsl-region-body">
+            <fo:block
+                font-family="serif, Times, Times New Roman, Symbol, MingLiU, MS Mincho, Arial Unicode MS"
+                font-size="12px"><fo:block-container font-size="11.5pt" margin-left="0"
+                    margin-right="0">
+                    <fo:block end-indent="0" start-indent="0"
+                                            ><fo:block><fo:block><fo:block><fo:block><fo:block-container
+                                            margin-top="1em" id="unique_2">
+                                            <fo:block id="concept_llv_ppv_phb" font-size="0"/>
+                                            <fo:block end-indent="0" start-indent="0" role="Sect">
+                                                <fo:block-container font-size="2em"
+                                                  margin-bottom="1em" margin-left="0"
+                                                  margin-right="0" margin-top="0"
+                                                  page-break-after="avoid" id="ariaid-title2">
+                                                  <fo:block end-indent="0" start-indent="0"
+                                                  role="H1"><fo:marker
+                                                  marker-class-name="chaptertitle"><fo:inline/> | 2
+                                                  - <!--content(text)--><fo:inline>A Quick Overview
+                                                  of Dancing
+                                                  Rabbit</fo:inline></fo:marker><fo:inline>Chapter
+                                                  2. </fo:inline>A Quick Overview of Dancing
+                                                  Rabbit</fo:block>
+                                                </fo:block-container>
+                                                <fo:block-container margin-bottom="0"
+                                                  margin-left="0" margin-right="0" margin-top="0">
+                                                  <fo:block end-indent="0" start-indent="0">
+                                                  <fo:block-container margin-bottom="0.5em"
+                                                  margin-left="0" margin-right="0" margin-top="1em">
+                                                  <fo:block end-indent="0" start-indent="0">Dancing
+                                                  Rabbit is an ecovillage located on the outskirts
+                                                  of Rutledge, a tiny town in a rural part of
+                                                  northeast Missouri. The main town center of
+                                                  Rutledge is about two miles away from DR and had
+                                                  109 people according to the town sign when I
+                                                  visited DR. DR itself had about 55 members and
+                                                  residents - these two roles have some distinct
+                                                  differences explained in "Becoming a Member"
+                                                  section - and 15 children, so the total added up
+                                                  to 70. I also counted about 20 visitors and
+                                                  wexers, or work exchangers. Work exchangers
+                                                  provided labor to the host families in exchange
+                                                  for free food and loedging. While the population
+                                                  of DR sounded small, it seemed to be one of the
+                                                  largest and oldest surviving ecovillages in the
+                                                  United States based on my quick
+                                                  research.</fo:block>
+                                                  </fo:block-container>
+                                                  <fo:block-container margin-bottom="0.5em"
+                                                  margin-left="0" margin-right="0" margin-top="1em">
+                                                  <fo:block end-indent="0" start-indent="0">In 1997,
+                                                  a group of idealistic people, many from the West
+                                                  Coast, founded Dancing Rabbit as an ecovillage to
+                                                  explore more sustainable ways of living. They were
+                                                  looking for a place with inexpensive real estate
+                                                  and other conditions suitable to starting an
+                                                  intentional community, and Rutledge was a good
+                                                  fit. What helped the move was that Sandhill Farm,
+                                                  another intentional community, was already
+                                                  established a few miles away.</fo:block>
+                                                  </fo:block-container>
+                                                  <fo:block-container margin-bottom="0.5em"
+                                                  margin-left="0" margin-right="0" margin-top="1em">
+                                                  <fo:block end-indent="0" start-indent="0">DR is
+                                                  composed of multiple legal entities, including the
+                                                  educational nonprofit arm and DR Land Trust. DR
+                                                  Land Trust owns about 277 acres of real estate
+                                                  with four acres of it more heavily developed as
+                                                  the main part of the town. The rest of the land
+                                                  consists of undeveloped prairies, forests, a large
+                                                  swimming pond, and 20 acres that got opened up for
+                                                  farming in 2012 before my visit.</fo:block>
+                                                  </fo:block-container>
+                                                  </fo:block>
+                                                </fo:block-container>
+                                            </fo:block>
+                                        </fo:block-container></fo:block></fo:block></fo:block></fo:block></fo:block>
+                </fo:block-container></fo:block>
+        </fo:flow>
+    </fo:page-sequence>
+    <fo:page-sequence master-reference="chapter" force-page-count="no-force" id="last-page-sequence"
+        line-height-shift-adjustment="disregard-shifts">
+        <fo:static-content flow-name="sc-before-left" role="artifact">
+            <fo:table border-collapse="separate" table-layout="fixed" width="100%">
+                <fo:table-body>
+                    <fo:table-row>
+                        <!--TOP-LEFT-->
+                        <fo:table-cell start-indent="0" end-indent="0" height="1in"
+                            width="(8.5in - 1in - 1in)" text-align="left" display-align="center"
+                            font-size="8pt">
+                            <fo:block><fo:retrieve-marker retrieve-class-name="maptitle"
+                                    retrieve-boundary="document"
+                                    retrieve-position="first-including-carryover"
+                                    /><fo:retrieve-marker retrieve-class-name="parttitle"
+                                    retrieve-boundary="document"
+                                    retrieve-position="first-including-carryover"
+                                    /><fo:retrieve-marker retrieve-class-name="chaptertitle"
+                                    retrieve-boundary="document"
+                                    retrieve-position="first-including-carryover"
+                                    /><fo:retrieve-marker retrieve-class-name="sectiontitle"
+                                    retrieve-boundary="document"
+                                    retrieve-position="first-including-carryover"/> |
+                                <fo:page-number/></fo:block>
+                        </fo:table-cell>
+                    </fo:table-row>
+                </fo:table-body>
+            </fo:table>
+        </fo:static-content>
+        <fo:static-content flow-name="sc-before-right" role="artifact">
+            <fo:table border-collapse="separate" table-layout="fixed" width="100%">
+                <fo:table-body>
+                    <fo:table-row>
+                        <!--TOP-RIGHT-->
+                        <fo:table-cell start-indent="0" end-indent="0" height="1in"
+                            width="(8.5in - 1in - 1in)" text-align="right" display-align="center"
+                            font-size="8pt">
+                            <fo:block><fo:retrieve-marker retrieve-class-name="maptitle"
+                                    retrieve-boundary="document"
+                                    retrieve-position="first-including-carryover"
+                                    /><fo:retrieve-marker retrieve-class-name="parttitle"
+                                    retrieve-boundary="document"
+                                    retrieve-position="first-including-carryover"
+                                    /><fo:retrieve-marker retrieve-class-name="chaptertitle"
+                                    retrieve-boundary="document"
+                                    retrieve-position="first-including-carryover"
+                                    /><fo:retrieve-marker retrieve-class-name="sectiontitle"
+                                    retrieve-boundary="document"
+                                    retrieve-position="first-including-carryover"/> |
+                                <fo:page-number/></fo:block>
+                        </fo:table-cell>
+                    </fo:table-row>
+                </fo:table-body>
+            </fo:table>
+        </fo:static-content>
+        <fo:static-content flow-name="xsl-footnote-separator" role="artifact" text-align="left"
+            display-align="auto" font-size="8pt" border-top-style="solid" border-top-color="black"
+            border-top-width="thin" padding-top="8pt">
+            <fo:block/>
+        </fo:static-content>
+        <fo:flow flow-name="xsl-region-body">
+            <fo:block
+                font-family="serif, Times, Times New Roman, Symbol, MingLiU, MS Mincho, Arial Unicode MS"
+                font-size="12px"><fo:block-container font-size="11.5pt" margin-left="0"
+                    margin-right="0">
+                    <fo:block end-indent="0" start-indent="0"
+                                            ><fo:block><fo:block><fo:block><fo:block><fo:block-container
+                                            margin-top="1em" id="unique_3">
+                                            <fo:block id="concept_lwq_15x_nhb" font-size="0"/>
+                                            <fo:block end-indent="0" start-indent="0" role="Sect">
+                                                <fo:block-container font-size="2em"
+                                                  margin-bottom="1em" margin-left="0"
+                                                  margin-right="0" margin-top="0"
+                                                  page-break-after="avoid" id="ariaid-title3">
+                                                  <fo:block end-indent="0" start-indent="0"
+                                                  role="H1"><fo:marker
+                                                  marker-class-name="chaptertitle"><fo:inline/> | 3
+                                                  - <!--content(text)--><fo:inline>Infrastructure
+                                                  and
+                                                  Zoning</fo:inline></fo:marker><fo:inline>Chapter
+                                                  3. </fo:inline>Infrastructure and
+                                                  Zoning</fo:block>
+                                                </fo:block-container>
+                                                <fo:block-container margin-bottom="0"
+                                                  margin-left="0" margin-right="0" margin-top="0">
+                                                  <fo:block end-indent="0" start-indent="0">
+                                                  <fo:block-container margin-bottom="0.5em"
+                                                  margin-left="0" margin-right="0" margin-top="1em">
+                                                  <fo:block end-indent="0" start-indent="0">The
+                                                  interesting infrastructure feature at DR, which
+                                                  would turn out to be a common feature in all
+                                                  ecovillages I visited except for Red Earth Farms,
+                                                  was the common house. The common house at DR was a
+                                                  large, multi-purpose building with plastered straw
+                                                  bale walls. People used the large living room for
+                                                  meetings, activities, and dining. The bathroom
+                                                  area had multiple composting toilets, two showers,
+                                                  and a few energy-efficient laundry machines but no
+                                                  dryers. People dried all their clothes in the sun
+                                                  using clotheslines.</fo:block>
+                                                  </fo:block-container>
+                                                  <fo:block-container margin-bottom="0.5em"
+                                                  margin-left="0" margin-right="0" margin-top="1em">
+                                                  <fo:block end-indent="0" start-indent="0">For
+                                                  intentional communities, a central community
+                                                  building where people can easily get together on a
+                                                  daily basis is essential in order to facilitate
+                                                  communication and coordination. It also serves as
+                                                  a no-cost social space with a roof, which is a
+                                                  refreshing departure from mainstream communities
+                                                  that tend to only have commercial third places
+                                                  like cafes. While most cities have libraries as
+                                                  third places free and open to the public, the main
+                                                  function of libraries is quiet learning and
+                                                  research, not social interaction. Experiencing the
+                                                  common house at ecovillages made me wonder how
+                                                  practical it would be to implement such places in
+                                                  mainstream cities.</fo:block>
+                                                  </fo:block-container>
+                                                  <fo:block-container margin-bottom="0.5em"
+                                                  margin-left="0" margin-right="0" margin-top="1em">
+                                                  <fo:block end-indent="0" start-indent="0">The
+                                                  common house had some deficiencies that hinted at
+                                                  DR's slow group decision-making process. Despite
+                                                  the village being about 15 years-old by 2012, the
+                                                  common house did not have thermal curtains while
+                                                  pretty much all individual homes did. Many people
+                                                  I met at DR said that changes can happen very
+                                                  slowly at DR. It seemed more accurate to say
+                                                  people were fast at making decisions on individual
+                                                  matters but slow on group matters. Since the
+                                                  common house was very uncomfortable during hot
+                                                  weather, many people without a permanent home,
+                                                  mostly new residents, visitors, and work
+                                                  exchangers, went to the bar at the Milkweed
+                                                  Mercantile, the swimming pond, or Zimmerman's
+                                                  general store in Rutledge town center.</fo:block>
+                                                  </fo:block-container>
+                                                  <fo:block-container margin-bottom="0.5em"
+                                                  margin-left="0" margin-right="0" margin-top="1em">
+                                                  <fo:block end-indent="0" start-indent="0">Rutledge
+                                                  and the surrounding areas had enough
+                                                  infrastructure for basic goods and services. The
+                                                  town center of Rutledge, about two miles away from
+                                                  DR, had an impressive general store named
+                                                  Zimmerman's, or Zimmy's, as it was affectionately
+                                                  called. The store had a small cafe that sold
+                                                  burgers and ice cream. People from DR would come
+                                                  to Zimmy's and spend a few hours just chatting and
+                                                  enjoying the cool AC breeze. About 12 miles away
+                                                  from DR was a bigger town named Memphis, equipped
+                                                  with a supermarket, a library, a department store,
+                                                  and even a local theater company.</fo:block>
+                                                  </fo:block-container>
+                                                  <fo:block-container margin-bottom="0.5em"
+                                                  margin-left="0" margin-right="0" margin-top="1em">
+                                                  <fo:block end-indent="0" start-indent="0">DR had
+                                                  relatively dense zoning for a rural town where
+                                                  some buildings were as close as 5 yards from each
+                                                  other. Houses tended to have small yards suitable
+                                                  for gardening while lacking a driveway following
+                                                  the DR's ban on using automobiles within the
+                                                  village. DR's town structure was based on what
+                                                  members called the “European model”: Homes were
+                                                  clustered together in a dense central area while a
+                                                  large area of farmland surrounded the central
+                                                  area. This structure allowed for more frequent
+                                                  social interaction and cooperation at the expense
+                                                  of not being able to constantly monitor the
+                                                  farmland.</fo:block>
+                                                  </fo:block-container>
+                                                  <fo:block-container margin-bottom="0.5em"
+                                                  margin-left="0" margin-right="0" margin-top="1em">
+                                                  <fo:block end-indent="0" start-indent="0">Not
+                                                  content with this model, a group of former members
+                                                  formed the sister village of Red Earth Farms about
+                                                  a mile from DR. Former members who wanted to focus
+                                                  more on homesteading structured Red Earth Farms
+                                                  based on what they called the “American model” -
+                                                  each individual house was surrounded by a large
+                                                  ring of farmland, which allowed each household a
+                                                  direct view and access to the farmland. At the
+                                                  time of my visit, Red Earth Farms had what I
+                                                  remember to be four households. Rather than having
+                                                  a more strict ecological covenant like Dancing
+                                                  Rabbit, Red Earth held annual ecological audits to
+                                                  see how they were doing and what they could do
+                                                  better next year. Similar to DR, Red Earth Farms
+                                                  also had a central parking lot at the edge of the
+                                                  village, but it had no central common house. The
+                                                  houses were so spread out that it took several
+                                                  minutes to walk from the central parking lot to
+                                                  the nearest house while at DR, it took only a
+                                                  minute or so to walk from the parking lot to the
+                                                  nearest house. Although DR and Red Earth Farms
+                                                  were technically two separate sister villages,
+                                                  they often functioned as one with villagers
+                                                  frequently visiting each other. People from Red
+                                                  Earth Farms would often walk for a mile to come to
+                                                  DR community events. The following is a conceptual
+                                                  diagram showing the town layouts of DR and Red
+                                                  Earth Farms.</fo:block>
+                                                  </fo:block-container>
+                                                  <fo:block-container margin-top="1em">
+                                                  <fo:block end-indent="0" start-indent="0">
+                                                  <fo:block><fo:inline/></fo:block>
+                                                  <fo:block text-align="center"><fo:inline
+                                                  chfox:inch="true" max-width="100%"
+                                                  id="unique_3_Connect_42_image_ydv_rwv_phb"
+                                                  ><fo:inline><fo:external-graphic
+                                                  src="file:/C:/Users/nchun/GitHub/visiting_dancing_rabbit_ecovillage/images/ecovillage%20layouts.png"
+                                                  fox:alt-text="A conceptual diagram showing the layout of Dancing Rabbit on the left and the layout of Red Earth Farms on the right. Dancing Rabbit has a common house and resident houses clustered closely together surrounded by a ring of farmland. Red Earth Farms has houses spread out, and each house is surrounded by a ring of farmland."
+                                                  max-width="100%" scaling="uniform"
+                                                  width="823in div 120" content-width="scale-to-fit"
+                                                  height="419in div 120"
+                                                  content-height="scale-to-fit"
+                                                  /></fo:inline></fo:inline></fo:block>
+                                                  <fo:block><fo:inline/></fo:block>
+                                                  </fo:block>
+                                                  </fo:block-container>
+                                                  </fo:block>
+                                                </fo:block-container>
+                                            </fo:block>
+                                        </fo:block-container></fo:block>
+                                </fo:block>
+                            </fo:block>
+                        </fo:block>
+                    </fo:block>
+                </fo:block-container>
+            </fo:block>
+        </fo:flow>
+    </fo:page-sequence>
+</fo:root>

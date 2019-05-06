@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<concept xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+    xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+    xmlns:opentopic-index="http://www.idiominc.com/opentopic/index"
+    class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3"
+    domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
+    id="concept_lwq_15x_nhb" xtrc="concept:1;3:35"
+    xtrf="file:/C:/Users/nchun/GitHub/visiting_dancing_rabbit_ecovillage/infra_and_zoning.dita">
+    <title class="- topic/title " xtrc="title:1;4:12"
+        xtrf="file:/C:/Users/nchun/GitHub/visiting_dancing_rabbit_ecovillage/infra_and_zoning.dita"
+        >Infrastructure and Zoning</title>
+    <conbody class="- topic/body  concept/conbody " xtrc="conbody:1;5:14"
+        xtrf="file:/C:/Users/nchun/GitHub/visiting_dancing_rabbit_ecovillage/infra_and_zoning.dita">
+        <p class="- topic/p " xtrc="p:1;6:12"
+            xtrf="file:/C:/Users/nchun/GitHub/visiting_dancing_rabbit_ecovillage/infra_and_zoning.dita"
+            >The interesting infrastructure feature at DR, which would turn out to be a common
+            feature in all ecovillages I visited except for Red Earth Farms, was the common house.
+            The common house at DR was a large, multi-purpose building with plastered straw bale
+            walls. People used the large living room for meetings, activities, and dining. The
+            bathroom area had multiple composting toilets, two showers, and a few energy-efficient
+            laundry machines but no dryers. People dried all their clothes in the sun using
+            clotheslines.</p>
+        <p class="- topic/p " xtrc="p:2;13:12"
+            xtrf="file:/C:/Users/nchun/GitHub/visiting_dancing_rabbit_ecovillage/infra_and_zoning.dita"
+            >For intentional communities, a central community building where people can easily get
+            together on a daily basis is essential in order to facilitate communication and
+            coordination. It also serves as a no-cost social space with a roof, which is a
+            refreshing departure from mainstream communities that tend to only have commercial third
+            places like cafes. While most cities have libraries as third places free and open to the
+            public, the main function of libraries is quiet learning and research, not social
+            interaction. Experiencing the common house at ecovillages made me wonder how practical
+            it would be to implement such places in mainstream cities.</p>
+        <p class="- topic/p " xtrc="p:3;21:12"
+            xtrf="file:/C:/Users/nchun/GitHub/visiting_dancing_rabbit_ecovillage/infra_and_zoning.dita"
+            >The common house had some deficiencies that hinted at DR's slow group decision-making
+            process. Despite the village being about 15 years-old by 2012, the common house did not
+            have thermal curtains while pretty much all individual homes did. Many people I met at
+            DR said that changes can happen very slowly at DR. It seemed more accurate to say people
+            were fast at making decisions on individual matters but slow on group matters. Since the
+            common house was very uncomfortable during hot weather, many people without a permanent
+            home, mostly new residents, visitors, and work exchangers, went to the bar at the
+            Milkweed Mercantile, the swimming pond, or Zimmerman's general store in Rutledge town
+            center.</p>
+        <p class="- topic/p " xtrc="p:4;30:12"
+            xtrf="file:/C:/Users/nchun/GitHub/visiting_dancing_rabbit_ecovillage/infra_and_zoning.dita"
+            >Rutledge and the surrounding areas had enough infrastructure for basic goods and
+            services. The town center of Rutledge, about two miles away from DR, had an impressive
+            general store named Zimmerman's, or Zimmy's, as it was affectionately called. The store
+            had a small cafe that sold burgers and ice cream. People from DR would come to Zimmy's
+            and spend a few hours just chatting and enjoying the cool AC breeze. About 12 miles away
+            from DR was a bigger town named Memphis, equipped with a supermarket, a library, a
+            department store, and even a local theater company.</p>
+        <p class="- topic/p " xtrc="p:5;37:12"
+            xtrf="file:/C:/Users/nchun/GitHub/visiting_dancing_rabbit_ecovillage/infra_and_zoning.dita"
+            >DR had relatively dense zoning for a rural town where some buildings were as close as 5
+            yards from each other. Houses tended to have small yards suitable for gardening while
+            lacking a driveway following the DR's ban on using automobiles within the village. DR's
+            town structure was based on what members called the “European model”: Homes were
+            clustered together in a dense central area while a large area of farmland surrounded the
+            central area. This structure allowed for more frequent social interaction and
+            cooperation at the expense of not being able to constantly monitor the farmland.</p>
+        <p class="- topic/p " xtrc="p:6;44:12"
+            xtrf="file:/C:/Users/nchun/GitHub/visiting_dancing_rabbit_ecovillage/infra_and_zoning.dita"
+            >Not content with this model, a group of former members formed the sister village of Red
+            Earth Farms about a mile from DR. Former members who wanted to focus more on
+            homesteading structured Red Earth Farms based on what they called the “American model” -
+            each individual house was surrounded by a large ring of farmland, which allowed each
+            household a direct view and access to the farmland. At the time of my visit, Red Earth
+            Farms had what I remember to be four households. Rather than having a more strict
+            ecological covenant like Dancing Rabbit, Red Earth held annual ecological audits to see
+            how they were doing and what they could do better next year. Similar to DR, Red Earth
+            Farms also had a central parking lot at the edge of the village, but it had no central
+            common house. The houses were so spread out that it took several minutes to walk from
+            the central parking lot to the nearest house while at DR, it took only a minute or so to
+            walk from the parking lot to the nearest house. Although DR and Red Earth Farms were
+            technically two separate sister villages, they often functioned as one with villagers
+            frequently visiting each other. People from Red Earth Farms would often walk for a mile
+            to come to DR community events. The following is a conceptual diagram showing the town
+            layouts of DR and Red Earth Farms.<image class="- topic/image "
+                href="images/ecovillage%20layouts.png" id="image_ydv_rwv_phb" placement="inline"
+                width="100" xtrc="image:1;60:41"
+                xtrf="file:/C:/Users/nchun/GitHub/visiting_dancing_rabbit_ecovillage/infra_and_zoning.dita"
+            /></p>
+    </conbody>
+    <opentopic-index:index.groups/>
+</concept>

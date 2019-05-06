@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>My Visit to Dancing Rabbit Ecovillage</title>
+    <topicref href="introduction.dita"/>
+    <topicref href="brief_background_about_dancing_rabbit.dita"/>
+    <topicref href="a_quick_overview_of_dancing_rabbit.dita"/>
+    <topicref href="the_visitor_experience.dita"/>
+    <topicref href="becoming_a_member.dita"/>
+    <topicref href="transportation.dita"/>
+    <topicref href="infrastructure_and_zoning.dita"/>
+    <topicref href="energy.dita"/>
+    <topicref href="housing_and_buildings.dita"/>
+    <topicref href="water_and_sanitation.dita"/>
+    <topicref href="food.dita"/>
+    <topicref href="economy.dita"/>
+    <topicref href="relationships.dita"/>
+    <topicref href="conclusion.dita"/>
+</map>
