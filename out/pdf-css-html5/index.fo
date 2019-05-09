@@ -318,8 +318,8 @@
                                 <fo:block-container margin-top="1em"><fo:block end-indent="0" start-indent="0">
                                     <fo:list-block relative-align="baseline" provisional-label-separation="3pt" provisional-distance-between-starts="2em" margin-bottom="1.33em" margin-top="1.33em">
                                         <fo:list-item><fo:list-item-label end-indent="label-end()"><fo:block text-align="end">1.
-            </fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>Visitors or Wexers, which stand
-                                            for.</fo:block></fo:list-item-body></fo:list-item>
+            </fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>Visitors or Wexers, which stands
+                                            for work exchangers.</fo:block></fo:list-item-body></fo:list-item>
                                         <fo:list-item><fo:list-item-label end-indent="label-end()"><fo:block text-align="end">2.
             </fo:block></fo:list-item-label><fo:list-item-body start-indent="body-start()"><fo:block>Residents akin to exploring
                                             members in other communities. </fo:block></fo:list-item-body></fo:list-item>
@@ -782,7 +782,8 @@
                                     visting ecovillages was that in smaller and more isolated
                                     communities, everybody would have an easy time pairing up due to
                                     the lack of choices. I shifted my thinking as I observed cases
-                                    of a few people taking most of the spoils.</fo:block></fo:block-container>
+                                    of a few people being in relationships with multiple partners
+                                    while others were having challenges.</fo:block></fo:block-container>
                                 <fo:block-container margin-bottom="0.5em" margin-left="0" margin-right="0" margin-top="1em"><fo:block end-indent="0" start-indent="0">I
                                     suspect the small size and the isolated location are the some of
                                     the main deterrents that kept new people from joining Dancing
