@@ -1,25 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="a_quick_overview_of_dancing_rabbit">
- <title> A Quick Overview of Dancing Rabbit </title>
- <conbody>
-  <p> Dancing Rabbit is an ecovillage located on the outskirts of Rutledge, a tiny town in a rural
-   part of northeast Missouri. The main town center of Rutledge is about two miles away from DR and
-   had 109 people according to the town sign when I visited DR. DR itself had about 55 members and
-   residents - these two roles have some distinct differences explained in "Becoming a Member"
-   section - and 15 children, so the total added up to 70. I also counted about 20 visitors and
-   wexers, or work exchangers. Work exchangers provided labor to the host families in exchange for
-   free food and loedging. While the population of DR sounded small, it seemed to be one of the
-   largest and oldest surviving ecovillages in the United States based on my quick research. </p>
-  <p> In 1997, a group of idealistic people, many from the West Coast, founded Dancing Rabbit as an
-   ecovillage to explore more sustainable ways of living. They were looking for a place with
-   inexpensive real estate and other conditions suitable to starting an intentional community, and
-   Rutledge was a good fit. What helped the move was that Sandhill Farm, another intentional
-   community, was already established a few miles away. </p>
-  <p> DR is composed of multiple legal entities, including the educational nonprofit arm and DR Land
-   Trust. DR Land Trust owns about 277 acres of real estate with four acres of it more heavily
-   developed as the main part of the town. The rest of the land consists of undeveloped prairies,
-   forests, a large swimming pond, and 20 acres that got opened up for farming in 2012 before my
-   visit. </p>
- </conbody>
+    <title>A Quick Overview of Dancing Rabbit</title>
+
+    <conbody>
+        <p>Dancing Rabbit is an ecovillage located on the outskirts of Rutledge, a tiny town in a
+            rural part of northeast Missouri. The main town center of Rutledge is about two miles
+            away from DR and had 109 people according to the town sign when I visited DR. DR itself
+            had about 55 members and residents - these two roles have some distinct differences
+            explained in the <xref href="becoming_a_member.dita">Becoming a Member</xref> section -
+            and 15 children, so the total added up to 70. I also counted about 20 visitors and
+            wexers, or work exchangers. Work exchangers provided labor to the host families in
+            exchange for free food and loedging. While the population of DR sounded small, it seemed
+            to be one of the largest and oldest surviving ecovillages in the United States based on
+            my quick research.</p>
+        <p>In 1997, a group of idealistic people, many from the West Coast, founded Dancing Rabbit
+            as an ecovillage to explore more sustainable ways of living. They were looking for a
+            place with inexpensive real estate and other conditions suitable to starting an
+            intentional community, and Rutledge was a good fit. What helped the move was that
+            Sandhill Farm, another intentional community, was already established a few miles
+            away.</p>
+        <p>DR is composed of multiple legal entities, including the educational nonprofit arm and DR
+            Land Trust. DR Land Trust owns about 277 acres of real estate with four acres of it more
+            heavily developed as the main part of the town. The rest of the land consists of
+            undeveloped prairies, forests, a large swimming pond, and 20 acres that got opened up
+            for farming in 2012 before my visit.</p>
+    </conbody>
 </concept>

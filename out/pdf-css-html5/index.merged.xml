@@ -2,205 +2,607 @@
 <?xml-stylesheet type='text/css' href='file:/C:/Users/nchun/AppData/Local/Programs/Oxygen XML Editor 21/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css'?>
 <?xml-stylesheet type='text/css' href='file:/C:/Users/nchun/AppData/Local/Programs/Oxygen XML Editor 21/frameworks/dita/css/print/p-dita.css'?>
 <?xml-stylesheet type='text/css' href='file:/C:/Users/nchun/AppData/Local/Programs/Oxygen XML Editor 21/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.editlink/pdf-css.css'?>
-<map xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
-    xmlns:opentopic-index="http://www.idiominc.com/opentopic/index"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns:oxy="http://www.oxygenxml.com/extensions/author"
-    xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations"
-    xmlns:opentopic="http://www.idiominc.com/opentopic"
-    xmlns:css2fo="http://www.oxygenxml.com/css2fo"
-    xmlns:dita-ot="dita-ot.sourceforge.net/ns/201007/dita-ot" cascade="merge" class="- map/map "
-    ditaarch:DITAArchVersion="1.3"
-    domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
-    xtrc="map:1;3:6"
-    xtrf="file:/C:/Users/nchun/GitHub/visiting_dancing_rabbit_ecovillage/index.ditamap">
-    <oxy:front-page class="- front-page/front-page ">
-        <oxy:front-page-title class="- front-page/front-page-title ">
-            <title xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
-                xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder"
-                class="- topic/title ">My Visit to Dancing Rabbit Ecovillage</title>
-        </oxy:front-page-title>
-    </oxy:front-page>
-    <opentopic:map xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder"
-        class="- toc/toc ">
-        <oxy:toc-title class="- toc/title " empty="true"/>
-        <title xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
-            class="- topic/title ">My Visit to Dancing Rabbit Ecovillage</title>
-        <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true"
-            class="- map/topicref " href="#unique_1" type="concept">
-            <topicmeta class="- map/topicmeta " data-topic-id="concept_w1g_qpv_phb">
-                <resourceid appid="concept_w1g_qpv_phb" class="- topic/resourceid "
-                    oxy-source="topic"/>
-                <navtitle href="#unique_1" class="- topic/navtitle ">Introduction</navtitle>
-                <?ditaot gentext?>
-                <?ditaot genshortdesc?>
-                <shortdesc class="- map/shortdesc ">Introduction about my reason for visiting
-                    Dancing Rabbit</shortdesc>
-            </topicmeta>
-        </topicref>
-        <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true"
-            class="- map/topicref " href="#unique_2" type="concept">
-            <topicmeta class="- map/topicmeta " data-topic-id="concept_llv_ppv_phb">
-                <resourceid appid="concept_llv_ppv_phb" class="- topic/resourceid "
-                    oxy-source="topic"/>
-                <navtitle href="#unique_2" class="- topic/navtitle ">A Quick Overview of Dancing
-                    Rabbit</navtitle>
-                <?ditaot gentext?>
-            </topicmeta>
-        </topicref>
-        <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true"
-            class="- map/topicref " href="#unique_3" type="concept">
-            <topicmeta class="- map/topicmeta " data-topic-id="concept_lwq_15x_nhb">
-                <resourceid appid="concept_lwq_15x_nhb" class="- topic/resourceid "
-                    oxy-source="topic"/>
-                <navtitle href="#unique_3" class="- topic/navtitle ">Infrastructure and
-                    Zoning</navtitle>
-                <?ditaot gentext?>
-            </topicmeta>
-        </topicref>
-    </opentopic:map>
-    <concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true"
-        is-chapter="true" oxy:topicref-class="- map/topicref "
-        class="- topic/topic concept/concept " id="unique_1" nd:nd-id="concept_w1g_qpv_phb"
-        oid="concept_w1g_qpv_phb">
-        <title class="- topic/title ">Introduction</title>
-        <shortdesc class="- topic/shortdesc ">Introduction about my reason for visiting Dancing
-            Rabbit</shortdesc>
-        <conbody class="- topic/body  concept/conbody ">
-            <p class="- topic/p ">Hoping to discover the simple life in a sustainable utopia, I
-                visited a few ecovillages over the years, starting with my visit to Dancing Rabbit
-                Ecovillage (DR for short) during the summer of 2012. Ecovillages are intentional
-                communities with a focus on ecological sustainability. Having been interested in
-                sustainability and alternative lifestyles for some time while working in technology
-                companies, I initially thought about becoming a farmer and volunteered at a few
-                organic farms until I realized how difficult farming is. I shifted my focus to
-                looking for sustainable communities and learned about DR on the Internet. DR is an
-                ecovillage in Rutledge, MO that set itself apart from the mainstream by locally
-                generating electricity from renewable sources, using composting toilets, building
-                houses with natural materials, reducing fossil fuel consumption, and focusing on
-                forming a close-knit community. For a period of two weeks from June 25th to July 9th
-                of 2012, I lived at DR to participate in its visitor program for prospective
-                residents. As a part of the program, we also visited Sandhill Farm, a small
-                income-sharing community in the same town for a day. Immediately after my two-week
-                visit, I stayed for two days in DR's sister village Red Earth Farms. In September of
-                2015, I visited two more ecovillages, spending one week at Earthaven Ecovillage in
-                Black Mountain, NC and just one day at Sirius Community. </p>
-            <p class="- topic/p ">While the visit to various ecovillages showed me inspiring ways to
-                re-design our neighborhoods and our day-to-day lives, I also realized that the
-                simple life is not so simple, and starting newsustainable villages from scratch is
-                an impractical solution on a massive scale. Since I stayed at Dancing Rabbit the
-                longest out of the four ecovillages I visited, I decided to write an essay about it.
-                Another reason for focusing on DR over other ecovillages is that I had the most
-                favorable impression of DR out of all the ecovillages I visited. I occasionally talk
-                about in other ecovillages in this essay to compare them against Dancing Rabbit.</p>
-        </conbody>
-    </concept>
-    <concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true"
-        is-chapter="true" oxy:topicref-class="- map/topicref "
-        class="- topic/topic concept/concept " id="unique_2" nd:nd-id="concept_llv_ppv_phb"
-        oid="concept_llv_ppv_phb">
-        <title class="- topic/title ">A Quick Overview of Dancing Rabbit</title>
-        <conbody class="- topic/body  concept/conbody ">
-            <p class="- topic/p ">Dancing Rabbit is an ecovillage located on the outskirts of
-                Rutledge, a tiny town in a rural part of northeast Missouri. The main town center of
-                Rutledge is about two miles away from DR and had 109 people according to the town
-                sign when I visited DR. DR itself had about 55 members and residents - these two
-                roles have some distinct differences explained in "Becoming a Member" section - and
-                15 children, so the total added up to 70. I also counted about 20 visitors and
-                wexers, or work exchangers. Work exchangers provided labor to the host families in
-                exchange for free food and loedging. While the population of DR sounded small, it
-                seemed to be one of the largest and oldest surviving ecovillages in the United
-                States based on my quick research.</p>
-            <p class="- topic/p ">In 1997, a group of idealistic people, many from the West Coast,
-                founded Dancing Rabbit as an ecovillage to explore more sustainable ways of living.
-                They were looking for a place with inexpensive real estate and other conditions
-                suitable to starting an intentional community, and Rutledge was a good fit. What
-                helped the move was that Sandhill Farm, another intentional community, was already
-                established a few miles away.</p>
-            <p class="- topic/p ">DR is composed of multiple legal entities, including the
-                educational nonprofit arm and DR Land Trust. DR Land Trust owns about 277 acres of
-                real estate with four acres of it more heavily developed as the main part of the
-                town. The rest of the land consists of undeveloped prairies, forests, a large
-                swimming pond, and 20 acres that got opened up for farming in 2012 before my
-                visit.</p>
-        </conbody>
-    </concept>
-    <concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true"
-        is-chapter="true" oxy:topicref-class="- map/topicref "
-        class="- topic/topic concept/concept " id="unique_3" nd:nd-id="concept_lwq_15x_nhb"
-        oid="concept_lwq_15x_nhb">
-        <title class="- topic/title ">Infrastructure and Zoning</title>
-        <conbody class="- topic/body  concept/conbody ">
-            <p class="- topic/p ">The interesting infrastructure feature at DR, which would turn out
-                to be a common feature in all ecovillages I visited except for Red Earth Farms, was
-                the common house. The common house at DR was a large, multi-purpose building with
-                plastered straw bale walls. People used the large living room for meetings,
-                activities, and dining. The bathroom area had multiple composting toilets, two
-                showers, and a few energy-efficient laundry machines but no dryers. People dried all
-                their clothes in the sun using clotheslines.</p>
-            <p class="- topic/p ">For intentional communities, a central community building where
-                people can easily get together on a daily basis is essential in order to facilitate
-                communication and coordination. It also serves as a no-cost social space with a
-                roof, which is a refreshing departure from mainstream communities that tend to only
-                have commercial third places like cafes. While most cities have libraries as third
-                places free and open to the public, the main function of libraries is quiet learning
-                and research, not social interaction. Experiencing the common house at ecovillages
-                made me wonder how practical it would be to implement such places in mainstream
-                cities.</p>
-            <p class="- topic/p ">The common house had some deficiencies that hinted at DR's slow
-                group decision-making process. Despite the village being about 15 years-old by 2012,
-                the common house did not have thermal curtains while pretty much all individual
-                homes did. Many people I met at DR said that changes can happen very slowly at DR.
-                It seemed more accurate to say people were fast at making decisions on individual
-                matters but slow on group matters. Since the common house was very uncomfortable
-                during hot weather, many people without a permanent home, mostly new residents,
-                visitors, and work exchangers, went to the bar at the Milkweed Mercantile, the
-                swimming pond, or Zimmerman's general store in Rutledge town center.</p>
-            <p class="- topic/p ">Rutledge and the surrounding areas had enough infrastructure for
-                basic goods and services. The town center of Rutledge, about two miles away from DR,
-                had an impressive general store named Zimmerman's, or Zimmy's, as it was
-                affectionately called. The store had a small cafe that sold burgers and ice cream.
-                People from DR would come to Zimmy's and spend a few hours just chatting and
-                enjoying the cool AC breeze. About 12 miles away from DR was a bigger town named
-                Memphis, equipped with a supermarket, a library, a department store, and even a
-                local theater company.</p>
-            <p class="- topic/p ">DR had relatively dense zoning for a rural town where some
-                buildings were as close as 5 yards from each other. Houses tended to have small
-                yards suitable for gardening while lacking a driveway following the DR's ban on
-                using automobiles within the village. DR's town structure was based on what members
-                called the “European model”: Homes were clustered together in a dense central area
-                while a large area of farmland surrounded the central area. This structure allowed
-                for more frequent social interaction and cooperation at the expense of not being
-                able to constantly monitor the farmland.</p>
-            <p class="- topic/p ">Not content with this model, a group of former members formed the
-                sister village of Red Earth Farms about a mile from DR. Former members who wanted to
-                focus more on homesteading structured Red Earth Farms based on what they called the
-                “American model” - each individual house was surrounded by a large ring of farmland,
-                which allowed each household a direct view and access to the farmland. At the time
-                of my visit, Red Earth Farms had what I remember to be four households. Rather than
-                having a more strict ecological covenant like Dancing Rabbit, Red Earth held annual
-                ecological audits to see how they were doing and what they could do better next
-                year. Similar to DR, Red Earth Farms also had a central parking lot at the edge of
-                the village, but it had no central common house. The houses were so spread out that
-                it took several minutes to walk from the central parking lot to the nearest house
-                while at DR, it took only a minute or so to walk from the parking lot to the nearest
-                house. Although DR and Red Earth Farms were technically two separate sister
-                villages, they often functioned as one with villagers frequently visiting each
-                other. People from Red Earth Farms would often walk for a mile to come to DR
-                community events. The following is a conceptual diagram showing the town layouts of
-                DR and Red Earth Farms.</p>
-            <p class="- topic/p ">
-                <image align="center" class="- topic/image "
-                    href="file:/C:/Users/nchun/GitHub/visiting_dancing_rabbit_ecovillage/images/ecovillage%20layouts.png"
-                    id="unique_3_Connect_42_image_ydv_rwv_phb" nd:nd-id="image_ydv_rwv_phb"
-                    placement="break" scalefit="yes">
-                    <alt class="- topic/alt ">A conceptual diagram showing the layout of Dancing
-                        Rabbit on the left and the layout of Red Earth Farms on the right. Dancing
-                        Rabbit has a common house and resident houses clustered closely together
-                        surrounded by a ring of farmland. Red Earth Farms has houses spread out, and
-                        each house is surrounded by a ring of farmland.</alt>
-                </image>
-            </p>
-        </conbody>
-    </concept>
-</map>
+<map xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:opentopic-index="http://www.idiominc.com/opentopic/index" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:oxy="http://www.oxygenxml.com/extensions/author" xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" xmlns:opentopic="http://www.idiominc.com/opentopic" xmlns:css2fo="http://www.oxygenxml.com/css2fo" xmlns:dita-ot="dita-ot.sourceforge.net/ns/201007/dita-ot" cascade="merge" class="- map/map " ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrc="map:1;3:6" xtrf="file:/C:/Users/nchun/GitHub/visiting_dancing_rabbit_ecovillage/index.ditamap"><oxy:front-page class="- front-page/front-page "><oxy:front-page-title class="- front-page/front-page-title "><title xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- topic/title ">My Two-Week Stay at Dancing Rabbit Ecovillage</title></oxy:front-page-title></oxy:front-page><opentopic:map xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- toc/toc "><oxy:toc-title class="- toc/title " empty="true"/>
+    <title xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/title ">My Two-Week Stay at Dancing Rabbit Ecovillage</title>
+    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_1" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="introduction"><resourceid appid="introduction" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_1" class="- topic/navtitle ">Introduction</navtitle><?ditaot gentext?></topicmeta></topicref>
+    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_2" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="a_quick_overview_of_dancing_rabbit"><resourceid appid="a_quick_overview_of_dancing_rabbit" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_2" class="- topic/navtitle ">A Quick Overview of Dancing Rabbit</navtitle><?ditaot gentext?></topicmeta></topicref>
+    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_4" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="the_visitor_experience"><resourceid appid="the_visitor_experience" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_4" class="- topic/navtitle ">The Visitor Experience</navtitle><?ditaot gentext?></topicmeta></topicref>
+    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_3" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="becoming_a_member"><resourceid appid="becoming_a_member" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_3" class="- topic/navtitle ">Becoming a member</navtitle><?ditaot gentext?></topicmeta></topicref>
+    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_5" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="infrastructure_and_zoning"><resourceid appid="infrastructure_and_zoning" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_5" class="- topic/navtitle ">Infrastructure and Zoning</navtitle><?ditaot gentext?></topicmeta></topicref>
+    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_6" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="transportation"><resourceid appid="transportation" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_6" class="- topic/navtitle ">Transportation</navtitle><?ditaot gentext?></topicmeta></topicref>
+    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_7" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="energy"><resourceid appid="energy" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_7" class="- topic/navtitle ">Energy</navtitle><?ditaot gentext?></topicmeta></topicref>
+    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_8" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="housing_and_buildings"><resourceid appid="housing_and_buildings" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_8" class="- topic/navtitle ">Housing and Buildings</navtitle><?ditaot gentext?></topicmeta></topicref>
+    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_9" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="water_and_sanitation"><resourceid appid="water_and_sanitation" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_9" class="- topic/navtitle ">Water and Sanitation</navtitle><?ditaot gentext?></topicmeta></topicref>
+    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_10" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="food"><resourceid appid="food" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_10" class="- topic/navtitle ">Food</navtitle><?ditaot gentext?></topicmeta></topicref>
+    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_11" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="economy"><resourceid appid="economy" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_11" class="- topic/navtitle ">Economy</navtitle><?ditaot gentext?></topicmeta></topicref>
+    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_12" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="relationships"><resourceid appid="relationships" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_12" class="- topic/navtitle ">Relationships</navtitle><?ditaot gentext?></topicmeta></topicref>
+    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_13" type="concept"><topicmeta class="- map/topicmeta " data-topic-id="conclusion"><resourceid appid="conclusion" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_13" class="- topic/navtitle ">Conclusion</navtitle><?ditaot gentext?></topicmeta></topicref>
+</opentopic:map><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" oxy:topicref-class="- map/topicref " class="- topic/topic concept/concept " id="unique_1" nd:nd-id="introduction" oid="introduction">
+    <title class="- topic/title ">Introduction</title>
+
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Hoping to discover the simple life in a sustainable utopia, I visited a few ecovillages
+            over the years, starting with my visit to Dancing Rabbit Ecovillage (<xref class="- topic/xref " format="html" href="https://www.dancingrabbit.org/" scope="external"/>) during the
+            summer of 2012. I will refer to Dancing Rabbit as DR for short for the rest of the
+            document. Ecovillages are intentional communities with a focus on ecological
+            sustainability. Having been interested in sustainability and alternative lifestyles for
+            some time while working in technology companies, I initially thought about becoming a
+            farmer and volunteered at a few organic farms until I realized how difficult farming is.
+            I shifted my focus to looking for sustainable communities and learned about DR on the
+            Internet. DR is an ecovillage in Rutledge, MO that set itself apart from the mainstream
+            by locally generating electricity from renewable sources, using composting toilets,
+            building houses with natural materials, reducing fossil fuel consumption, and focusing
+            on forming a close-knit community. For a period of two weeks from June 25th to July 9th
+            of 2012, I lived at DR to participate in its visitor program for prospective residents.
+            As a part of the program, we also visited Sandhill Farm, a small income-sharing
+            community in the same town for a day. Immediately after my two-week visit, I stayed for
+            two days in DR's sister village Red Earth Farms. In September of 2015, I visited
+            two more ecovillages, spending one week at Earthaven Ecovillage in Black Mountain, NC
+            and just one day at Sirius Community. </p>
+        <p class="- topic/p ">While the visit to various ecovillages showed me inspiring ways to re-design our
+            neighborhoods and our day-to-day lives, I also realized that the simple life is not so
+            simple, and starting newsustainable villages from scratch is an impractical solution on
+            a massive scale. Since I stayed at Dancing Rabbit the longest out of the four
+            ecovillages I visited, I decided to write an essay about it. Another reason for focusing
+            on DR over other ecovillages is that I had the most favorable impression of DR out of
+            all the ecovillages I visited. I occasionally talk about in other ecovillages in this
+            essay to compare them against Dancing Rabbit.</p>
+    </conbody>
+</concept><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" oxy:topicref-class="- map/topicref " class="- topic/topic concept/concept " id="unique_2" nd:nd-id="a_quick_overview_of_dancing_rabbit" oid="a_quick_overview_of_dancing_rabbit">
+    <title class="- topic/title ">A Quick Overview of Dancing Rabbit</title>
+
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Dancing Rabbit is an ecovillage located on the outskirts of Rutledge, a tiny town in a
+            rural part of northeast Missouri. The main town center of Rutledge is about two miles
+            away from DR and had 109 people according to the town sign when I visited DR. DR itself
+            had about 55 members and residents - these two roles have some distinct differences
+            explained in the <xref class="- topic/xref " href="#unique_3" type="concept"><?ditaot usertext?>Becoming a Member</xref> section -
+            and 15 children, so the total added up to 70. I also counted about 20 visitors and
+            wexers, or work exchangers. Work exchangers provided labor to the host families in
+            exchange for free food and loedging. While the population of DR sounded small, it seemed
+            to be one of the largest and oldest surviving ecovillages in the United States based on
+            my quick research.</p>
+        <p class="- topic/p ">In 1997, a group of idealistic people, many from the West Coast, founded Dancing Rabbit
+            as an ecovillage to explore more sustainable ways of living. They were looking for a
+            place with inexpensive real estate and other conditions suitable to starting an
+            intentional community, and Rutledge was a good fit. What helped the move was that
+            Sandhill Farm, another intentional community, was already established a few miles
+            away.</p>
+        <p class="- topic/p ">DR is composed of multiple legal entities, including the educational nonprofit arm and DR
+            Land Trust. DR Land Trust owns about 277 acres of real estate with four acres of it more
+            heavily developed as the main part of the town. The rest of the land consists of
+            undeveloped prairies, forests, a large swimming pond, and 20 acres that got opened up
+            for farming in 2012 before my visit.</p>
+    </conbody>
+</concept><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" oxy:topicref-class="- map/topicref " class="- topic/topic concept/concept " id="unique_4" nd:nd-id="the_visitor_experience" oid="the_visitor_experience">
+    <title class="- topic/title ">The Visitor Experience</title>
+
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">To be considered for the visitor program, I contacted Dancing Rabbit about six weeks
+            before the first day of my visit and went back and forth, answering emails and filling
+            out a questionnaire. When I was finally accepted, I submitted the fee to finalize my
+            decision. I was living in New Jersey at the same, so while I could have flown in and
+            arranged for a ride to DR, I decided to take the time and drive from New Jersey to
+            Missouri so that I could see other parts of the country. After the visitors including
+            myself parked ours cars in the central parking lot near the edge of the town, we walked
+            on a short gravel path which lead us to the village courtyard where the host, a male DR
+            member in his 20s, greeted us. The courtyard was a small grassy yard with picnic tables.
+            The large common house, the Milkweed Mercantile Eco-Inn, and Skyhouse, a house owned by
+            a sub-group, surrounded the courtyard. After an orientation, the host lead us to a
+            campground with wooden pallets set up as tent platforms. The visitors pitched the tents
+            they brought on the platforms. The Missouri summer heat made staying in the tents rather
+            tortuous even when we pitched our tents in the shade. Our DR host brought us tarps to
+            pitch over the tent for extra protection from the sun, which did help a lot.</p>
+        <p class="- topic/p ">The first week's schedule was composed mostly of formal workshops and tours. People
+            gave an overview on what it was like to live at DR, finances, people dynamics, etc. We
+            got to learn about permaculture from a member who was an experienced designer. A member
+            gave us a lengthy tour of the outer properties of DR, which was very scenic yet riddled
+            with chiggers and ticks. Much of DR land was wide and flat prairies with tall plants but
+            not too many trees.</p>
+        <p class="- topic/p ">Touring the wild and undeveloped property made me realize that nature is not made for
+            humans. Air conditioning and clean concrete buildings give us the illusion that natural
+            threats that cause us harm and discomfort no longer exist, but after being in a rural
+            village where the temperature reached over 100 F and the unpaved roads were full of
+            ticks and poisonous plants, I realized that those threats were still very much real. A
+            few days after my visit, while taking a shower at a motel, I felt a bump on my neck. It
+            turned out to be a tick which had become engorged with my blood.</p>
+        <p class="- topic/p ">During the second week, we had some more workshops, but the focus shifted more onto
+            hands-on work parties where we got to help people with building their natural homes and
+            gardening tasks. Our afternoons and evenings were mostly free, so people got to
+            participate in whatever events were going on. Some typical morning and evening events
+            included yoga, meditation, song circle, and dancing. During one evening, a couple who
+            had filmed their one-year quest to find the ideal intentional community did a free
+            showing of their documentary.</p>
+        <p class="- topic/p ">One particularly memorable part of the second week was helping a member with his garden
+            after he had given us a tour of his farm. This member was a very skilled farmer and
+            artist who was working on some serious agricultural projects. He had started a vineyard
+            and an orchard with some free-roaming goats on the outskirts of the village while
+            maintaining a sizable garden near his house within the village center.</p>
+        <p class="- topic/p ">In one work-party experience that initially seemed gross but turned out to be okay, I
+            helped plaster a member's house with earth plaster based on the member's
+            favorite recipe - earth, sand, water, and aged cow poop. I was nervous about odor and
+            pathogens, but the aging process had neutralized both concerns. The whole process turned
+            out to be messy but interesting and odor-free.</p>
+        <p class="- topic/p ">Visitors got to observe the regular Sunday meetings, called "week in preview," which
+            frankly were long and boring. People went around in circles, coordinating projects and
+            announcing next week's events. With 50 residents and members, the meeting took more
+            than an hour. I could see the length of the meeting becoming a problem with additional
+            members. After the meeting was over, we participated in cleanup of the common house.</p>
+        <p class="- topic/p ">During more serious meetings for making community-wide decisions, DR employed a
+            consensus-based system. Consensus as DR interpreted it did not imply full agreement,
+            just consent. DR members emphasized that in a properly functioning consensus system,
+            each participant should dissent at most only two or three times in his or her lifetime.
+            If people were frequently dissenting, it implied that the system was not working
+            properly. As my visit was short, I did not get to observe the consensus system in
+            action.</p>
+    </conbody>
+</concept><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" oxy:topicref-class="- map/topicref " class="- topic/topic concept/concept " id="unique_3" nd:nd-id="becoming_a_member" oid="becoming_a_member">
+    <title class="- topic/title ">Becoming a member</title>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">After the end of our visitor program, we had time to reflect on our visit and figure out
+            where to go from there. We were not under any pressure to make a decision right then. We
+            were given a long period - six months, if I remember correctly - in which we could make
+            the decision to apply as residents at DR. <i class="+ topic/ph hi-d/i ">Residents are akin to exploring members in
+                other intentional communities.</i> Before visitors can become full-fledged Members,
+            they must first live in DR as residents. Those who did not apply in the six-month
+            timeframe would need to participate in the visitor program again to apply for residency.
+            Some people felt strong enough to apply pretty much right then while others were not so
+            sure. One lady in the program wanted to move to DR but felt she had to work a little
+            more to build up enough savings.</p>
+        <p class="- topic/p ">Not all who applied passed the approval process to become residents. Current members and
+            residents of Dancing Rabbit participated in this selection process, which DR people
+            emphasized was a relatively low-key process. After at least six months and at most two
+            years of living as residents, residents could apply to become members, thus making a
+            long-term commitment to live at DR.</p>
+        <p class="- topic/p ">While residents and members shared many similarities, members had more significant
+            responsibilities and privileges, most notable of them being required monthly dues, not
+            being allowed to own private vehicles, and having the right to build permanent buildings
+            on DR land leased for 99 years.</p>
+        <p class="- topic/p ">There was another route to starting the membership process at DR besides coming in as a
+            visitor: Coming in as a work exchanger, commonly called wexer. Wexers were hosted by
+            individual members at DR. In exchange for shelter - usually be a simple tent site -,
+            food, and all basic expenses at DR such as water and power, wexers would work a set
+            amount of hours per week for their hosts. Wexers did not receive money in many cases.
+            Some of the wexers I talked to felt they were putting in a lot of effort for small
+            compensation.</p>
+        <p class="- topic/p ">To summarize the membership process at DR, it would look ilke this:</p>
+        <p class="- topic/p "><ol class="- topic/ol ">
+                <li class="- topic/li ">Visitors or Wexers, which stand for.</li>
+                <li class="- topic/li ">Residents akin to exploring members in other communities. </li>
+                <li class="- topic/li ">Members who are akin to full members in other communities. They have the right
+                    to build and own housing on DR land.</li>
+            </ol></p>
+    </conbody>
+</concept><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" oxy:topicref-class="- map/topicref " class="- topic/topic concept/concept " id="unique_5" nd:nd-id="infrastructure_and_zoning" oid="infrastructure_and_zoning">
+    <title class="- topic/title ">Infrastructure and Zoning</title>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">The interesting infrastructure feature at DR, which would turn out to be a common feature
+            in all ecovillages I visited except for Red Earth Farms, was the common house. The
+            common house at DR was a large, multi-purpose building with plastered straw bale walls.
+            People used the large living room for meetings, activities, and dining. The bathroom
+            area had multiple composting toilets, two showers, and a few energy-efficient laundry
+            machines but no dryers. People dried all their clothes in the sun using
+            clotheslines.</p>
+        <p class="- topic/p ">For intentional communities, a central community building where people can easily get
+            together on a daily basis is essential in order to facilitate communication and
+            coordination. It also serves as a no-cost social space with a roof, which is a
+            refreshing departure from mainstream communities that tend to only have commercial third
+            places like cafes. While most cities have libraries as third places free and open to the
+            public, the main function of libraries is quiet learning and research, not social
+            interaction. Experiencing the common house at ecovillages made me wonder how practical
+            it would be to implement such places in mainstream cities.</p>
+        <p class="- topic/p ">The common house had some deficiencies that hinted at DR's slow group decision-making
+            process. Despite the village being about 15 years-old by 2012, the common house did not
+            have thermal curtains while pretty much all individual homes did. Many people I met at
+            DR said that changes can happen very slowly at DR. It seemed more accurate to say people
+            were fast at making decisions on individual matters but slow on group matters. Since the
+            common house was very uncomfortable during hot weather, many people without a permanent
+            home, mostly new residents, visitors, and work exchangers, went to the bar at the
+            Milkweed Mercantile, the swimming pond, or Zimmerman's general store in Rutledge town
+            center.</p>
+        <p class="- topic/p ">Rutledge and the surrounding areas had enough infrastructure for basic goods and
+            services. The town center of Rutledge, about two miles away from DR, had an impressive
+            general store named Zimmerman's, or Zimmy's, as it was affectionately called. The store
+            had a small cafe that sold burgers and ice cream. People from DR would come to Zimmy's
+            and spend a few hours just chatting and enjoying the cool AC breeze. About 12 miles away
+            from DR was a bigger town named Memphis, equipped with a supermarket, a library, a
+            department store, and even a local theater company.</p>
+        <p class="- topic/p ">DR had relatively dense zoning for a rural town where some buildings were as close as 5
+            yards from each other. Houses tended to have small yards suitable for gardening while
+            lacking a driveway following the DR's ban on using automobiles within the village. DR's
+            town structure was based on what members called the "European model": Homes were
+            clustered together in a dense central area while a large area of farmland surrounded the
+            central area. This structure allowed for more frequent social interaction and
+            cooperation at the expense of not being able to constantly monitor the farmland. DR's
+            discouragement of using cars presented some challenges for people finding employment in
+            other towns too far to go by foot or bike. More details are discussed in the <xref class="- topic/xref " format="dita" href="#unique_6" type="concept"><?ditaot usertext?>Transportation
+                section.</xref></p>
+        <p class="- topic/p ">Not content with this model, a group of former members formed the sister village of Red
+            Earth Farms (<xref class="- topic/xref " format="html" href="http://redearthfarms.org/" scope="external"/>)
+            about a mile from DR. Former members who wanted to focus more on homesteading structured
+            Red Earth Farms based on what they called the “American model” - each individual house
+            was surrounded by a large ring of farmland, which allowed each household a direct view
+            and access to the farmland. At the time of my visit, Red Earth Farms had what I remember
+            to be four households. Rather than having a more strict ecological covenant like Dancing
+            Rabbit, Red Earth held annual ecological audits to see how they were doing and what they
+            could do better next year. Similar to DR, Red Earth Farms also had a central parking lot
+            at the edge of the village, but it had no central common house. The houses were so
+            spread out that it took several minutes to walk from the central parking lot to the
+            nearest house while at DR, it took only a minute or so to walk from the parking lot to
+            the nearest house. Although DR and Red Earth Farms were technically two separate sister
+            villages, they often functioned as one with villagers frequently visiting each other.
+            People from Red Earth Farms would often walk for a mile to come to DR community events.
+            The following is a conceptual diagram showing the town layouts of DR and Red Earth
+            Farms.</p>
+        <p class="- topic/p "><image align="center" class="- topic/image " href="file:/C:/Users/nchun/GitHub/visiting_dancing_rabbit_ecovillage/images/ecovillage%20layouts.png" id="unique_5_Connect_42_image_ydv_rwv_phb" nd:nd-id="image_ydv_rwv_phb" placement="break" scalefit="yes">
+                <alt class="- topic/alt ">A conceptual diagram showing the layout of Dancing Rabbit on the left and the
+                    layout of Red Earth Farms on the right. Dancing Rabbit has a common house and
+                    resident houses clustered closely together surrounded by a ring of farmland. Red
+                    Earth Farms has houses spread out, and each house is surrounded by a ring of
+                    farmland.</alt>
+            </image></p>
+    </conbody>
+</concept><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" oxy:topicref-class="- map/topicref " class="- topic/topic concept/concept " id="unique_6" nd:nd-id="transportation" oid="transportation">
+    <title class="- topic/title ">Transportation</title>
+
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">My favorite aspect of Dancing Rabbit was its high walkability, made possible by the close
+            proximity of buildings, ban on motor vehicles inside the village, and a central parking
+            lot at the edge of the town. Since the village roads were designed for people and
+            human-powered vehicles, they were only as wide as a single-car lane. Adults and children
+            could safely run around the town without worries of getting hit by a car. The high
+            walkability allowed for more spontaneous interactions between villagers. Due to the
+            close proximity of buildings to each other, going from one place to another often took
+            five minutes or less. On one occasion where a truck needed to deliver a large load of
+            straw bales to use as insulation for a house being built, the people at DR were flexible
+            enough to allow the truck to come through.</p>
+        <p class="- topic/p ">DR's commitment to reducing dependency on the automobile was not without challenges.
+            While residents still exploring membership are allowed to own personal vehicles, once
+            they become full members, they must surrender their personal automobiles and only use
+            shared automobiles as a part of their ecological covenant. Since DR was located in a
+            very remote part of Missouri, this requirement severely limited the members' work
+            options. A resident who worked as a nurse would commute for several miles each way to
+            get to her workplace. Other members and residents saw this inequality as a source of
+            tension.</p>
+        <p class="- topic/p ">After visiting Dancing Rabbit, other ecovillages I visited later sometimes felt like
+            automobile-dependent mainstream suburbs. Earthaven Ecovillage, which I visited in 2015,
+            was the opposite of DR when it came to transportation and street planning. Many early
+            members of Earthaven opted to build homes far away from each other to enjoy the
+            isolation, some being more than a mile away from the common house. One member explained
+            that many members regretted the decision due to the distance making it difficult for
+            people to socialize on a regular basis or help each other. Earthaven had narrow unpaved
+            roads with no separate sidewalks, meaning pedestrians had to be very alert to avoid cars
+            zooming down the road. Serious car-related accidents have happened at Earthaven. I
+            honestly felt disappointed by the lack of foresight in an aspiring ecovillage that at
+            times felt more dangerous than a car-dependent mainstream city with proper sidewalks. I
+            wanted to enjoy walking around the village without worrying about getting hit by a car,
+            which was not a concern at Dancing Rabbit.</p>
+    </conbody>
+</concept><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" oxy:topicref-class="- map/topicref " class="- topic/topic concept/concept " id="unique_7" nd:nd-id="energy" oid="energy">
+    <title class="- topic/title ">Energy</title>
+
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">The buildings at DR were powered by solar cells and mini wind generators. The original
+            ecological covenant of DR required the community to be off-grid. Some time before my
+            visit, it had made one major change by connecting to the local power grid. It still
+            retained the spirit of the covenant by planning to put back twice more power to the grid
+            than what it took in.</p>
+        <p class="- topic/p ">These renewable power generation methods had some weakness. The most noticeable problem
+            with the wind generators was their high noise level. The ones at DR were about 30-feet
+            high with propellers that were about 2-feet wide. These are only my estimates based on
+            memory. The propellers made high-pitched whines during times of heavy wind, including at
+            night, which I found to be very distracting. The solar cells, while being dead quiet,
+            had one long-term problem: The lifetime of the solar cells and the attached battery
+            systems are only about 20 years. </p>
+        <p class="- topic/p ">Since the homes were very well-insulated, people could stay relatively comfortable inside
+            homes without using active cooling from ACs. For generating heat during the cold
+            Missouri winter, people often resorted to burning wood, which creates problems with air
+            quaility according to the members.</p>
+    </conbody>
+</concept><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" oxy:topicref-class="- map/topicref " class="- topic/topic concept/concept " id="unique_8" nd:nd-id="housing_and_buildings" oid="housing_and_buildings">
+    <title class="- topic/title ">Housing and Buildings</title>
+
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">DR was located in an area with no strict building code requirements, so people were free
+            to experiment with all kinds of materials and techniques. That turned out to be a
+            double-edged sword based on what I saw. Many of the older homes were poorly built in
+            terms of waterproofing and insulation, so the owners of these homes were working hard to
+            retrofit them. The owners either built the homes themselves or bought them from the
+            previous owner, inheriting their problems. I heard some horror stories of poor design,
+            but I will leave them out.</p>
+        <p class="- topic/p ">Many houses at DR used 18 inch-wide strawbales as insulation and mud or other natural
+            materials for the walls. Thermal curtains placed in windows provided additional
+            insulation against the hot summer sun and winter heat loss. Skilled builders would angle
+            the houses' awnings to block the summer sunlight when the sun is at its highest
+            while allowing sunlight during the colder seasons when the sun is lower. Some houses
+            used vinyl sidings, which seems an odd choice for an ecovillage. A member who is a
+            builder explained that the ecological covenant has some shortcomings in requiring wood
+            sidings to come from sustainable sources but has no clear requirements for other
+            material types. Based on my first-hand experience, the homes had impressive insulation
+            performance against the hot Missouri summer weather. When the visitors toured some of
+            the homes in 90 F to 100 F weather, the homes stayed comfortable, if not cool, without
+            using AC or fans.</p>
+        <p class="- topic/p ">Housing was where the main difference between being a member and a resident came into
+            play. DR members had the right to build their own houses or buy existing ones that were
+            available for sale. Residents could only rent houses, but could not own or build them.
+            Since housing was in short supply at DR, only a few lucky residents managed to rent old
+            buildings from members. Most residents ended up renting undeveloped land and living in
+            temporary dwellings like tents or yurts. </p>
+        <p class="- topic/p ">Interestingly, members and residents could lease land from DR Land Trust, but they could
+            not own any portion of the land. That meant even when members were building their own
+            houses on DR land, they were leasing the land, not buying it for permanent ownership.
+            This arrangement had the potential to create problems when members decided to depart DR
+            for whatever reason. I did not pry too much into this topic during my visit, but in all
+            the cases I had heard of, members who were leaving DR managed to sell their houses to
+            other members. From a more cautious perspective, members who decide to invest their
+            money into building permanent homes at DR should accept the possibility of losing money
+            since the market for the homes are limited to DR residents and members.</p>
+        <p class="- topic/p ">Based on my rough estimate, most of the houses I saw at DR were less than 800 sqft, with
+            some of them being as small as 200 sqft and a few being over 1000 sqft. Most of them
+            were built with either natural materials or salvaged materials. I saw lots of variety -
+            converted school buses, grain bins, cob (an ancient building material composed of sand,
+            clay, and straw), straw bale with earth plaster, timber frame, and so on. Many members
+            built their homes with their own hands using 18-inch wide straw bales from local farms
+            to for insulation and load-bearing structure. After the straw bales were stacked like
+            bricks to form walls, builders would coat them with plaster or earth plaster for water
+            protection.</p>
+        <p class="- topic/p ">Looking at the intriguing homes at DR gave me an idea about schools offering mandatory
+            courses on building shelters. Schools nowadays focus too much on teaching abstract
+            knowledge while neglecting more practical and physical skills such as auto repair, home
+            building, cooking, gardening, financial responsibility, and sewing. I wonder how society
+            would change if education shifts more to teach these tangible skills.</p>
+    </conbody>
+</concept><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" oxy:topicref-class="- map/topicref " class="- topic/topic concept/concept " id="unique_9" nd:nd-id="water_and_sanitation" oid="water_and_sanitation">
+    <title class="- topic/title ">Water and Sanitation</title>
+
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Adjusting to the water at DR was a huge challenge for me. The water at times had a funny
+            taste to it, and I suffered extensive stomach problems throughout my entire two-week
+            stay. Based on the taste of the water, I think it was more than my body adjusting to the
+            water.</p>
+        <p class="- topic/p ">DR only had composting toilets as far as I know. As visitors, we got to use the
+            composting toilets in the common house and outhouses scattered throughout the village. I
+            am a fan of composting toilets, assuming they are implemented well. Compared to septic
+            systems and centralized sewage plants, well-designed composting toilets can be much
+            simpler, safer, and cheaper. The problem with the toilets at the DR common house was
+            that they were not suitable for large-scale use as they had to be emptied often.</p>
+        <p class="- topic/p ">The toilets were based on Joe Jenkins's system as explained in his book, <i class="+ topic/ph hi-d/i ">The
+                Humanure Manual</i>. The toilets were regular plastic buckets stored inside wooden
+            boxes with toilet lids on them. Before using it for the first time and after each use,
+            we would add sawdust to mask the odor, absorb moisture, and increase the carbon content.
+            Once the buckets had become full, the content would be dumped at a separate composting
+            site. </p>
+        <p class="- topic/p ">While the Jenkins toilets were easy to implement and use, they started becoming
+            problematic with heavy use. The smell tended to be strong and with many visitors and
+            wexers using them, they required almost daily emptying. Some wexers opted to empty the
+            toilets into a composting pit at the bottom of a hill in exchange for some money since
+            their work exchange arrangements often did not provide any income. The Jenkins toilets
+            would work well for a small family, but not for a large community of 70+ people. A more
+            effective long-term solution would have been in-situ (in-place) composting toilets with
+            venting pipes. Private homes at DR had in-situ composting toilets with almost no odor.
+            This discrepancy was another possible demonstration of financial challenges and
+            shortcomings of group behavior at DR.</p>
+    </conbody>
+</concept><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" oxy:topicref-class="- map/topicref " class="- topic/topic concept/concept " id="unique_10" nd:nd-id="food" oid="food">
+    <title class="- topic/title ">Food</title>
+
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Contrary to the common stereotype that ecology-focused intentional communities are food
+            self-sufficient, all ecovillages I visted were very far from achieving the ideal. DR had
+            several kitchen co-ops where people pay a monthly fee to share the cost of eating.
+            Usually, it was around $7 per person per day. Food co-ops would mail-order grains, oils,
+            dairy, and meats from organic providers in bulk. Most people at DR took care of their
+            food needs primarily through these food co-ops. Sunflower was the main co-op at the
+            common house, which was open to everyone while other co-ops were exclusive. The other
+            co-ops had their own separate kitchens, and candidates had to build a rapport with the
+            existing members to be accepted into the coop.</p>
+        <p class="- topic/p ">DR visitor program participants were assigned to a strict eating schedule where they
+            rotated through five different kitchen co-ops. The taste of the food I had at DR was a
+            complete gamble depending on who was cooking. Some meals were amazing while some meals
+            had much to be desired. Most of the food I got at DR during the visitor program was
+            vegan, which I had no problems with as I eat a lot of vegan food at home, but some
+            dishes were simply not very flavorful. Since the cooks had to accommodate all diet
+            restrictions of the visitors, the food was often reduced to the lowest common
+            denominator: vegetables and beans. We once got to enjoy a meal of raw kale salad and
+            unseasoned boiled kidney beans. Since members and residents eat at their own kitchens or
+            their own co-ops, their diet would not be so restrictive. To be fair, we enjoyed some
+            awesome dishes like vegan curry, baked potatoes with sour cream and bacon, and barbecued
+            meats from a massive party. After finishing our food, we composted all leftover food and
+            waste, including meat and inedible parts. DR people emphasized being careful with water
+            use while washing dishes. Some actually leaked their plate thoroughly after they
+            finished eating so that they would use less water when cleaning the dishes.</p>
+        <p class="- topic/p ">Gardening for vegetables was very popular at DR, but very few people grew more
+            calorie-dense food sources such as grains, fruits, beans, and nuts. A few members had
+            just started an intensive agricultural project involving food forests and livestocks.
+            While the animals were happily established on the land, it would probably take at least
+            five years from 2012 for the nut and fruit trees to produce food.</p>
+    </conbody>
+</concept><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" oxy:topicref-class="- map/topicref " class="- topic/topic concept/concept " id="unique_11" nd:nd-id="economy" oid="economy">
+    <title class="- topic/title ">Economy</title>
+
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Generating income while living at DR was a big challenge for many people due to DR's
+            remote location. It was a common problem I would observe at other ecovillages since they
+            were usually located in economically and socially isolated rural areas with inexpensive
+            real estate that allowed for experimentation. DR was an income-independent community,
+            meaning that members did not share their income with other members except for full
+            members paying 2% of their income as a maintenance fee. The system was different from
+            income-sharing intentional communities such as Twin Oaks in Virginia and DR's own
+            neighbor, Sandhill Farm, that put all members' income into a pool and distributed
+            it evenly among the members. At DR, people got to keep most of what they earned, in
+            exchange for the challenge of being fully responsible for their own living expenses in
+            an economically-limited environment.</p>
+        <p class="- topic/p ">Most people at DR did not have conventional full-time office jobs because such jobs were
+            simply not available in the area unless they were willing to travel 10 miles or more in
+            each direction. DR's ecological covenant allowed full members to only use shared
+            vehicles, which was expensive and impractical for commuting long-distances. Since
+            residents were allowed to own cars, some residents were commuting long-distance to go to
+            their jobs in nearby cities and towns.</p>
+        <p class="- topic/p ">Some people at DR did not have to worry about income as much since they were retirees who
+            were well-off coming in. Among the remaining majority who had to work for income, some
+            popular options were working online or living outside the community for a part of the
+            year to build up enough savings for the rest of the year. The term for temporarily
+            living outside was called "off-farm." The off-farmers tended to hold seasonal
+            jobs in tourism, agriculture, construction, etc. Some people worked as consultants and
+            would go outside the community whenever a project became available. One member was
+            working for a non-profit remotely. He had to fly out a few times a year for the job. </p>
+        <p class="- topic/p ">It was possible for DR people to support themselves with income from working only a part
+            of the year due to the extremely low cost of living at DR. Based on the up-to-date
+            finance chart on the DR website I saw in 2012, you could live at DR for as low as
+            $3000-$4000 a year, and even less if you grew your own food. Having said that, deciding
+            to build a house on DR land after becoming a member would still be a big financial
+            challenge for many people. It could cost from $3000 for a very simple DIY home using
+            salvaged materials up to $50,000 for a nice home built by experienced builders. The
+            construction could take as short as six months to a few years.</p>
+        <p class="- topic/p ">The village had a limited number of local businesses, so not all members could earn their
+            income from them. The most notable local business was the Milkweed Mercantile Eco-Inn,
+            an inn and a tavern right in the heart of DR. It was owned and operated by a couple who
+            had been members at DR for several years. A member who was a skilled natural home
+            builder got a lot of business from other members who needed housing. Some members also
+            got paid to run an informal preschool for the children there. A female member was
+            struggling to start a general store. Her main challenge was a lack of capital.</p>
+        <p class="- topic/p ">As DR produced very little material goods and food on its own, people were very dependent
+            on online shopping. I observed UPS trucks coming in almost everyday. One member
+            bashfully commented, "If the Internet goes down, we would be in trouble."</p>
+    </conbody>
+</concept><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" oxy:topicref-class="- map/topicref " class="- topic/topic concept/concept " id="unique_12" nd:nd-id="relationships" oid="relationships">
+    <title class="- topic/title ">Relationships</title>
+
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">It became obvious over the course of two weeks that not everybody at DR got along. I
+            realized I will likely clash with some of the people at DR should I end up living there.
+            During my first day, I already had a run-in with a long-time member who dismissed my
+            interest in yurts as stupid and went into an angry rant. He criticized yurts for not
+            being well-insulated. When I suggested to him that Mongolians have been using yurts (or
+            more accurately, ger) for a long time in an environment with hot summers and cold
+            winters, he said that just because something is old does not mean it works well. His
+            concerns were valid, but the way he presented them came off as rude and militant. This
+            incident happened five minutes after I had met him.</p>
+        <p class="- topic/p ">Since people were living together in a close-knit community and sharing limited
+            resources, conflicts would inevitably arise. One evening, a member angrily complained
+            about the swimming pond being closed off due to the mens group using it to perform a
+            ceremony. He had just worked extensively on his house, so his body was coated in mud. He
+            wanted to take a dip in the pond to clean himself off, but was unable to do so. He ended
+            up using the shower at the common house, leaving a muddy mess, which then upset people
+            coming in to use the shower.</p>
+        <p class="- topic/p ">For being a small community, people at DR had a lot of variety in terms of personality
+            and lifestyles. At the risk of oversimplifying, here are some of the different traits I
+            noticed during my visit: relaxed, aggressive, monogamous, polyamorous, mystics,
+            engineers. I personally found the mystical bent of some people at DR to be a bit
+            uncomfortable. If I were to live there, the difference is something I would need to
+            embrace. During my visit, many female members and residents were into Enneagram of
+            Personality. A father expressed his frustration with this trend behind closed doors. He
+            noted that in such a small community, there is a tendency for people to group think and
+            trends can spread quickly.</p>
+        <p class="- topic/p ">One memorable incident with a mystic made me feel briefly like I was in a different
+            world. An openly queer female wexer spread her palms over a watermelon and did some kind
+            of energy-giving/blessing ritual. Her hands were shaking visibly from the effort.</p>
+        <p class="- topic/p ">On the opposite end of the mystical spectrum, I met a quiet married man in his 40's
+            at Skyhouse. He was peeling carrots as he explained that he and his wife moved here
+            after having lived in Twin Oaks for a while. His wife was working as a nurse while he
+            was mostly staying in the village helping with chores. He later let it slip that he used
+            to work as a researcher for NASA.</p>
+        <p class="- topic/p ">Not everybody at DR ended up staying there forever. People would leave for various
+            reasons - personal conflicts, wanting to try new things, no longer in line with the
+            vision, economic difficulties. One of the most common reasons for departure I witnessed
+            was romantic breakups. Following a breakup, depending on how bad it was, one half of a
+            couple would leave DR while the other half would stay.</p>
+        <p class="- topic/p ">Some people had trouble finding partners after they had moved in, which was another
+            source of frustration that could contribute to people leaving. As a part of the open
+            Q&amp;A session between visitors and members, a visitor asked members what they wish
+            they had brought when they moved to Dancing Rabbit. A large male resident with a burly
+            beard said, without any hint of humor, "A girlfriend." My impression prior to
+            visting ecovillages was that in smaller and more isolated communities, everybody would
+            have an easy time pairing up due to the lack of choices. I shifted my thinking as I
+            observed cases of a few people taking most of the spoils.</p>
+        <p class="- topic/p ">I suspect the small size and the isolated location are the some of the main deterrents
+            that kept new people from joining Dancing Rabbit. In such a small community, I feared
+            that personal conflicts could magnify and people could at times feel like they could not
+            retreat into their own peaceful place. There was a catch-22 in that the small size makes
+            people hesitant to join, but people not joining keeps the community small, contrary to
+            DR's vision of growing into a larger community of about 500 people.</p>
+        <p class="- topic/p ">Growth and expansion were hot topics during my visit. Since consensus system starts to
+            break down in large groups, a large community needs to either adopt a modified consensus
+            system composed of representatives or divide itself into smaller and highly independent
+            units if it wishes to maintain a practical consensus-based system. People at DR were
+            often discussing the proposal for a bigger common house and the need to update DR's
+            consensus system.</p>
+        <p class="- topic/p ">An ominous vision I got during my visit was that due to DR's slow decision-making
+            process, the community would have already gotten too big and too problematic by the time
+            it had come up with an effective solution for expansion with everyone's consent. As
+            an example, remember the problems I saw with the common house's humanure system and
+            lack of thermal curtains, which had been that way for years.</p>
+    </conbody>
+</concept><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" oxy:topicref-class="- map/topicref " class="- topic/topic concept/concept " id="unique_13" nd:nd-id="conclusion" oid="conclusion">
+    <title class="- topic/title ">Conclusion</title>
+
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">DR was set apart from the mainstream in many ways, and the mainstream could definitely
+            benefit from studying it. What impressed me the most about DR was its car-free village
+            design which made it safer, healthier, more sustainable, and much more social. The
+            well-insulated homes that managed to stay cool without AC demonstrated that with proper
+            design, passive temperature control is possible even in hot weather. Despite having had
+            a lot of positive experiences at DR, I ultimately decided not to move there. Visiting DR
+            helped me realize that the term, "simple life," which people often use to describe rural
+            life is a misnomer. Instead of externalizing many complexities and discomforts of life
+            using specialization, technology, and corporations, the people at DR had internalized
+            them using their owns bodies, skills, knowledge, and social connections. Composting your
+            own food and bodily waste, a task people in the mainstream would never do, were daily
+            tasks at DR. Most DR members built their own homes by hand and maintained their own
+            power system, skills most people in the mainstream do not have.</p>
+        <p class="- topic/p ">The people at DR were tough. I do not think they chose this lifestyle because it was
+            altogether easier. Many people at DR had past lives working as successful corporate
+            employees in urban environments. They could have stayed with the mainstream, dealing
+            with long commutes through urban sprawl, wondering when they should buy a new
+            car/phone/TV, paying mortgages on a nice air-conditioned home, and visiting hot new
+            restaurants during the weekends. The people at DR had given up the stresses and comforts
+            of their past lives for a challenging life in the country, experiencing physical,
+            financial, and social challenges that came with working to create a more sustainable
+            rural village.</p>
+        <p class="- topic/p ">I realized my motivation did not exactly line up with the tougher reality at DR. I was
+            looking for a more leisurely life by living at an ecovillage. The visit suggested that
+            living at DR was a complex mixture of leisure and challenges. Sure, people would take
+            slow afternoon swims in the pond, but they would also work hard with their own hands to
+            build homes and struggle to meet their financial needs. I jumped in hoping for a utopia,
+            but I sensed that people were not always completely happy. There is a lot of stress and
+            work involved in keeping a small intentional community together. I got the feeling some
+            of the residents and members themselves envisioned a paradise and were feeling
+            discontent with the messy reality.</p>
+        <p class="- topic/p ">Having had a brief but real taste of living at a sustainability-focused rural community,
+            I was not sure if I had the right combination of energy and mindset to develop social
+            bonds, learn new skills, build a house, pursue my interests, and live a sustainable
+            lifestyle in a potentially isolating village of about 70 people. I anticipated the
+            social aspect to be one of the most challenging parts of living at DR. I did not
+            completely click with the people, and as described before, clashed with some. Another
+            big deterrent for me joining DR was financial challenges. I felt I did not have enough
+            money to take the risk. I also had no idea what kind of work I would be doing to
+            generate income since I was only used to doing very specialized work in large
+            corporations. </p>
+        <p class="- topic/p ">After some traveling and relaxing following my visit to DR, I ended up returning to work
+            for corporate IT. The pull of Dancing Rabbit was not strong enough during my visit to
+            make me want to pick up everything and move there, but the experience increased the
+            sense of doubt I had about my mainstream lifestyle. Soon after returning to work, I got
+            a bike and started biking more frequently. I had been composting food waste before my
+            visit, and the experience made me stick with the practice. I also continued saving money
+            in hope of being able to make a radical move when the time arrives.</p>
+        <p class="- topic/p ">The main takeaway from my visit to DR was that for our society to become more sustainable
+            on a massive level, changes need to start where we are, not by building new villages in
+            remote areas of the country away from already developed cities. As problematic as
+            mainstream cities can be with crumbling roads, sprawl, low walkability, unaffordable
+            housing, etc, their infrastructure, density, culture, and methods of production still
+            have tremendous value. All the ecovillages, including DR, still depended on the outside
+            world for essential supplies, services, and economic opportunities. The near-daily UPS
+            shipments arriving at DR and people going off-farm for seasonal work acknowledged that
+            dependency. Not only is it impossible for all of us to leave our cities and create new
+            sustainable cities from scratch, leaving our cities entails giving up both their
+            problems and strengths.</p>
+        <p class="- topic/p ">To clarify, the people at DR never insisted that everyone should pack up their bags and
+            move to ecovillages. They viewed DR as an experimental village that would demonstrate
+            sustainable concepts and practices to the greater world. A more realistic and practical
+            vision would be for mainstream cities and idealistic ecovillages to exist in symbiosis,
+            learning from each other and sharing their resources. I continue to wonder how
+            mainstream cities would function if they adopted aspects of DR I found to be positive
+            and innovative such as car-free neighborhoods, composting toilets, and multi-purpose
+            community buildings.</p>
+    </conbody>
+</concept></map>
